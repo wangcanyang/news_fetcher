@@ -1,0 +1,177 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Fetch from the D1-bound API route (internal Workers fetch)
+let items: any[] = [];
+let fetchedAt = Date.now();
+try {
+  const response = await fetch(new URL('/api/news', Astro.url), {
+    headers: { 'Content-Type': 'application/json' },
+  });
+  if (response.ok) {
+    const data = await response.json();
+    items = data.items || [];
+    fetchedAt = data.fetchedAt || Date.now();
+  }
+} catch (e) {
+  console.error('Failed to fetch news from D1:', e);
+}
+
+const totalPages = Math.max(1, Math.ceil(items.length / 15));
+---
+
+<Layout title="Global Finance Terminal">
+  <!-- Header -->
+  <header class="border-b-4 border-white bg-black sticky top-0 z-10">
+    <div class="flex items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-4">
+        <h1 class="text-xl font-bold tracking-widest text-white uppercase">Global Finance Terminal</h1>
+        <span class="text-xs text-gray-500 border border-gray-600 px-2 py-0.5">LIVE</span>
+      </div>
+      <div class="flex items-center gap-3 text-xs text-gray-500">
+        <span id="last-updated"></span>
+        <span id="item-count" class="text-gray-400"></span>
+      </div>
+    </div>
+    <!-- Ticker strip -->
+    <div class="border-t border-gray-800 px-4 py-1.5 overflow-hidden">
+      <div class="flex gap-8 text-xs text-gray-500 uppercase tracking-wider">
+        <span>Markets</span>
+        <span class="text-green-500">S&P 500</span>
+        <span class="text-red-500">NASDAQ</span>
+        <span class="text-amber-400">FX</span>
+        <span class="text-blue-400">Earnings</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto px-4 py-2">
+    <!-- Status Bar -->
+    <div class="flex items-center justify-between text-xs text-gray-500 uppercase tracking-wide border-b border-gray-800 pb-2 mb-2">
+      <span>Last 72 Hours</span>
+      <span id="page-indicator"></span>
+    </div>
+
+    <!-- News List -->
+    <div id="news-list" class="min-h-[600px]"></div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="flex items-center justify-between border-t-2 border-gray-800 pt-4 mt-4">
+      <button
+        id="prev-btn"
+        class="text-xs uppercase tracking-widest text-blue-500 hover:text-blue-300 disabled:text-gray-600 disabled:cursor-not-allowed transition-colors"
+      >
+        &lt; Previous
+      </button>
+
+      <div id="page-numbers" class="flex gap-2"></div>
+
+      <button
+        id="next-btn"
+        class="text-xs uppercase tracking-widest text-blue-500 hover:text-blue-300 disabled:text-gray-600 disabled:cursor-not-allowed transition-colors"
+      >
+        Next &gt;
+      </button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t-2 border-gray-800 mt-8 py-4 text-center text-xs text-gray-600 uppercase tracking-wider">
+    Global Finance News Terminal &bull; Powered by AI Translation &bull; Data refreshed hourly
+  </footer>
+</Layout>
+
+<script define:vars={{ items, totalPages, fetchedAt }}>
+  const PAGE_SIZE = 15;
+
+  // Data already filtered to 72h by D1 query
+  let currentPage = 1;
+
+  function renderPage(page) {
+    const start = (page - 1) * PAGE_SIZE;
+    const end = start + PAGE_SIZE;
+    const pageItems = items.slice(start, end);
+    const newsList = document.getElementById("news-list");
+    const pageIndicator = document.getElementById("page-indicator");
+    const pageNumbers = document.getElementById("page-numbers");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const lastUpdated = document.getElementById("last-updated");
+    const itemCount = document.getElementById("item-count");
+
+    if (!newsList) return;
+
+    if (pageItems.length === 0) {
+      newsList.innerHTML = '<div class="text-gray-500 text-sm py-8 text-center uppercase tracking-widest">No news available</div>';
+      return;
+    }
+
+    newsList.innerHTML = pageItems.map(item => {
+      const en = item.title_en || item.title || "";
+      const zh = item.title_zh || en;
+      const link = item.link || "#";
+      const source = item.sourceName || item.source || "";
+      const category = item.category || "";
+      const ts = item.timestamp || 0;
+      const desc = item.description || "";
+
+      const date = new Date(ts);
+      const timeStr = date.toISOString().replace("T", " ").substring(0, 16) + " UTC";
+
+      return `
+        <div class="border-b-2 border-gray-800 py-3 px-2 hover:bg-neutral-950 transition-colors">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-xs font-bold text-amber-400 border border-amber-400 px-1.5 py-0.5 uppercase tracking-wider">${source}</span>
+            <span class="text-xs text-gray-500 border border-gray-600 px-1.5 py-0.5 uppercase">${category}</span>
+            <span class="text-xs text-gray-600 ml-auto">${timeStr}</span>
+          </div>
+          <a href="${link}" target="_blank" rel="noopener noreferrer" class="block group">
+            <div class="text-white text-sm leading-snug group-hover:text-blue-400 transition-colors">${en}</div>
+            ${zh !== en ? `<div class="text-gray-400 text-xs leading-snug mt-0.5">${zh}</div>` : ""}
+          </a>
+          ${desc.trim() ? `<div class="text-gray-600 text-xs mt-1 line-clamp-2">${desc}</div>` : ""}
+        </div>
+      `;
+    }).join("");
+
+    const totalP = Math.ceil(items.length / PAGE_SIZE);
+    pageIndicator.textContent = `Page ${page} of ${totalP} (${items.length} items)`;
+    itemCount.textContent = `${items.length} news items`;
+
+    // Page numbers
+    if (pageNumbers) {
+      const range = 2;
+      const pages = [];
+      for (let p = Math.max(1, page - range); p <= Math.min(totalP, page + range); p++) {
+        pages.push(p);
+      }
+      pageNumbers.innerHTML = pages.map(p =>
+        `<button class="text-xs px-2 py-1 ${p === page ? "text-amber-400 border border-amber-400" : "text-gray-500 hover:text-white"} transition-colors" data-page="${p}">${p}</button>`
+      ).join("");
+      pageNumbers.querySelectorAll("button").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentPage = parseInt(btn.dataset.page);
+          renderPage(currentPage);
+        });
+      });
+    }
+
+    if (prevBtn) {
+      prevBtn.disabled = page <= 1;
+      prevBtn.onclick = () => { currentPage--; renderPage(currentPage); };
+    }
+    if (nextBtn) {
+      nextBtn.disabled = page >= totalP;
+      nextBtn.onclick = () => { currentPage++; renderPage(currentPage); };
+    }
+  }
+
+  // Init
+  const updatedEl = document.getElementById("last-updated");
+  if (updatedEl) {
+    updatedEl.textContent = "Updated: " + new Date(fetchedAt).toISOString().replace("T", " ").substring(0, 16) + " UTC";
+  }
+
+  renderPage(1);
+</script>

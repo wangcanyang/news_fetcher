@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>环球财经新闻聚合</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+:root{--bg:#0a0a0f;--bg2:#111118;--bg3:#1a1a24;--bg4:#22222f;--border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.12);--text:#e8e8f0;--text2:#9090a8;--text3:#5a5a72;--accent:#c8a96e;--accent2:#e8c88e;--red:#e05a5a;--green:#5aaa7a;--blue:#5a90e0;--tag-bg:rgba(200,169,110,0.12);--tag-text:#c8a96e;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Noto Serif SC','Georgia',serif;min-height:100vh;overflow-x:hidden;}
+header{position:sticky;top:0;z-index:100;background:rgba(10,10,15,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:0 2rem;}
+.header-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;gap:1.5rem;height:64px;}
+.logo{font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--accent);letter-spacing:.02em;white-space:nowrap;flex-shrink:0;}
+.logo span{font-style:italic;font-weight:400;color:var(--text3);font-size:.75rem;display:block;letter-spacing:.1em;margin-top:-3px;}
+.clock{font-family:'DM Mono',monospace;font-size:.75rem;color:var(--text3);white-space:nowrap;flex-shrink:0;}
+.sep{flex:1;}
+.actions{display:flex;align-items:center;gap:.6rem;flex-shrink:0;}
+.btn{display:inline-flex;align-items:center;gap:.35rem;padding:.38rem .9rem;border:1px solid var(--border2);border-radius:3px;background:transparent;color:var(--text2);font-size:.78rem;cursor:pointer;transition:all .2s;font-family:'DM Mono',monospace;white-space:nowrap;}
+.btn:hover{border-color:var(--accent);color:var(--accent);}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#0a0a0f;font-weight:500;}
+.btn.primary:hover{background:var(--accent2);border-color:var(--accent2);}
+.btn:disabled{opacity:.35;cursor:not-allowed;}
+input[type=password],input[type=text]{background:var(--bg3);border:1px solid var(--border2);border-radius:3px;color:var(--text);font-family:'DM Mono',monospace;font-size:.75rem;padding:.38rem .7rem;outline:none;}
+input[type=password]:focus,input[type=text]:focus{border-color:var(--accent);}
+input[type=password]::placeholder,input[type=text]::placeholder{color:var(--text3);}
+.filter-bar{background:var(--bg2);border-bottom:1px solid var(--border);padding:.55rem 2rem;overflow-x:auto;scrollbar-width:none;}
+.filter-bar::-webkit-scrollbar{display:none;}
+.filter-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;gap:.4rem;white-space:nowrap;}
+.fl{font-family:'DM Mono',monospace;font-size:.68rem;color:var(--text3);text-transform:uppercase;letter-spacing:.1em;margin-right:.2rem;flex-shrink:0;}
+.chip{display:inline-flex;align-items:center;gap:.3rem;padding:.22rem .65rem;border:1px solid var(--border);border-radius:2px;background:transparent;color:var(--text3);font-size:.72rem;cursor:pointer;transition:all .15s;font-family:'DM Mono',monospace;white-space:nowrap;}
+.chip:hover{border-color:var(--border2);color:var(--text2);}
+.chip.active{border-color:var(--accent);color:var(--accent);background:var(--tag-bg);}
+.chip .dot{width:5px;height:5px;border-radius:50%;background:currentColor;flex-shrink:0;}
+.dv{width:1px;height:16px;background:var(--border);flex-shrink:0;}
+select{background:var(--bg3);border:1px solid var(--border2);border-radius:3px;color:var(--text2);font-family:'DM Mono',monospace;font-size:.72rem;padding:.3rem .5rem;outline:none;cursor:pointer;}
+select:focus{border-color:var(--accent);}
+.layout{max-width:1400px;margin:0 auto;padding:1.25rem 2rem;display:grid;grid-template-columns:1fr 280px;gap:1.25rem;}
+@media(max-width:960px){.layout{grid-template-columns:1fr;}.sidebar{display:none;}}
+.status-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:.65rem;border-bottom:1px solid var(--border);}
+.status-text{font-family:'DM Mono',monospace;font-size:.73rem;color:var(--text3);}
+.status-text b{color:var(--accent);font-weight:500;}
+.live-dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);display:inline-block;margin-right:.4rem;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+.news-feed{display:flex;flex-direction:column;gap:0;}
+.news-item{display:grid;grid-template-columns:76px 1fr;border-bottom:1px solid var(--border);transition:background .15s;cursor:pointer;text-decoration:none;color:inherit;}
+.news-item:hover{background:rgba(255,255,255,.02);}
+.tc{padding:.85rem .85rem .85rem 0;display:flex;flex-direction:column;align-items:flex-end;gap:.25rem;flex-shrink:0;}
+.nt{font-family:'DM Mono',monospace;font-size:.68rem;color:var(--text3);}
+.nd{font-family:'DM Mono',monospace;font-size:.62rem;color:var(--text3);opacity:.6;}
+.nb{padding:.85rem 0 .85rem .85rem;border-left:1px solid var(--border);}
+.src-row{display:flex;align-items:center;gap:.45rem;margin-bottom:.3rem;}
+.src-badge{font-family:'DM Mono',monospace;font-size:.63rem;text-transform:uppercase;letter-spacing:.06em;padding:.12rem .38rem;border-radius:2px;background:var(--bg3);color:var(--text3);border:1px solid var(--border);}
+.src-badge.bloomberg{color:#7ab8ff;background:rgba(122,184,255,.08);border-color:rgba(122,184,255,.2);}
+.src-badge.cnbc{color:#ff9f40;background:rgba(255,159,64,.08);border-color:rgba(255,159,64,.2);}
+.src-badge.cnn{color:#ff5a5a;background:rgba(255,90,90,.08);border-color:rgba(255,90,90,.2);}
+.src-badge.wsj{color:#c8a96e;background:rgba(200,169,110,.08);border-color:rgba(200,169,110,.2);}
+.src-badge.reuters{color:#ff7a5a;background:rgba(255,122,90,.08);border-color:rgba(255,122,90,.2);}
+.src-badge.axios{color:#a07af0;background:rgba(160,122,240,.08);border-color:rgba(160,122,240,.2);}
+.src-badge.ft{color:#f0c058;background:rgba(240,192,88,.08);border-color:rgba(240,192,88,.2);}
+.src-badge.yahoo{color:#9058f0;background:rgba(144,88,240,.08);border-color:rgba(144,88,240,.2);}
+.src-badge.scmp{color:#58c8f0;background:rgba(88,200,240,.08);border-color:rgba(88,200,240,.2);}
+.src-badge.zaobao{color:#f05878;background:rgba(240,88,120,.08);border-color:rgba(240,88,120,.2);}
+.src-badge.mktnews{color:#78e0a0;background:rgba(120,224,160,.08);border-color:rgba(120,224,160,.2);}
+.ai-badge{font-family:'DM Mono',monospace;font-size:.6rem;padding:.1rem .3rem;border-radius:2px;color:var(--text3);border:1px solid var(--border);background:var(--bg3);}
+.cat{font-family:'DM Mono',monospace;font-size:.63rem;color:var(--text3);}
+.ntitle{font-size:.92rem;font-weight:600;line-height:1.45;margin-bottom:.28rem;color:var(--text);}
+.ntrans{font-size:.83rem;color:var(--text2);line-height:1.55;margin-bottom:.35rem;font-weight:400;display:none;}
+.ntrans.v{display:block;}
+.ndesc{font-size:.78rem;color:var(--text3);line-height:1.5;margin-bottom:.35rem;display:none;}
+.ndesc.v{display:block;}
+.tags{display:flex;flex-wrap:wrap;gap:.28rem;}
+.tag{font-family:'DM Mono',monospace;font-size:.62rem;padding:.08rem .35rem;border-radius:2px;background:var(--tag-bg);color:var(--tag-text);border:1px solid rgba(200,169,110,.15);}
+.tag.tr-btn{cursor:pointer;border-color:rgba(200,169,110,.3);}
+.tag.tr-btn:hover{background:rgba(200,169,110,.2);}
+.read .ntitle{color:var(--text3);}
+.empty{padding:4rem 2rem;text-align:center;}
+.empty-icon{font-size:2.2rem;margin-bottom:.75rem;opacity:.25;}
+.empty-title{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--text2);margin-bottom:.5rem;}
+.empty-desc{font-size:.83rem;color:var(--text3);line-height:1.65;}
+.shimmer-item{padding:.85rem;border-bottom:1px solid var(--border);display:grid;grid-template-columns:76px 1fr;gap:.75rem;}
+.sh{background:linear-gradient(90deg,var(--bg3) 25%,var(--bg4) 50%,var(--bg3) 75%);background-size:200% 100%;border-radius:3px;animation:shim 1.5s infinite;}
+@keyframes shim{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+.sidebar{display:flex;flex-direction:column;gap:.9rem;}
+.sc{background:var(--bg2);border:1px solid var(--border);border-radius:3px;padding:.85rem;}
+.sc-title{font-family:'DM Mono',monospace;font-size:.67rem;text-transform:uppercase;letter-spacing:.1em;color:var(--text3);margin-bottom:.65rem;padding-bottom:.45rem;border-bottom:1px solid var(--border);}
+.ss-list{display:flex;flex-direction:column;gap:.35rem;}
+.ss-item{display:flex;align-items:center;justify-content:space-between;font-size:.75rem;}
+.ss-name{color:var(--text2);font-family:'DM Mono',monospace;font-size:.7rem;}
+.ss-count{font-family:'DM Mono',monospace;font-size:.68rem;color:var(--text3);}
+.s-dot{width:5px;height:5px;border-radius:50%;background:var(--text3);margin-right:.38rem;display:inline-block;}
+.s-dot.ok{background:var(--green);}
+.s-dot.err{background:var(--red);}
+.s-dot.fallback{background:var(--accent);}
+.s-dot.ld{background:var(--accent);animation:pulse 1s infinite;}
+.tr-list{display:flex;flex-direction:column;gap:.25rem;}
+.tr-item{display:flex;align-items:flex-start;gap:.45rem;font-size:.76rem;color:var(--text2);line-height:1.4;padding:.28rem 0;border-bottom:1px solid var(--border);cursor:pointer;}
+.tr-item:last-child{border-bottom:none;}
+.tr-item:hover{color:var(--text);}
+.tr-num{font-family:'DM Mono',monospace;font-size:.63rem;color:var(--text3);min-width:14px;padding-top:1px;}
+.hi-bar{background:linear-gradient(135deg,rgba(200,169,110,.07) 0%,transparent 100%);border:1px solid rgba(200,169,110,.13);border-radius:3px;padding:.7rem .9rem;margin-bottom:1rem;}
+.hi-title{font-family:'DM Mono',monospace;font-size:.63rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);margin-bottom:.45rem;}
+.hi-items{display:flex;flex-direction:column;gap:.28rem;}
+.hi-item{font-size:.8rem;color:var(--text2);cursor:pointer;display:flex;gap:.45rem;align-items:flex-start;line-height:1.4;}
+.hi-item:hover{color:var(--text);}
+.hi-item::before{content:'→';color:var(--accent);flex-shrink:0;font-size:.72rem;margin-top:2px;}
+.toast{position:fixed;bottom:1.25rem;right:1.25rem;padding:.65rem 1.1rem;background:var(--bg3);border:1px solid var(--border2);border-radius:3px;font-size:.78rem;color:var(--text2);font-family:'DM Mono',monospace;z-index:999;transform:translateY(80px);opacity:0;transition:all .3s;max-width:300px;}
+.toast.show{transform:translateY(0);opacity:1;}
+.toast.ok{border-color:rgba(90,170,122,.4);color:var(--green);}
+.toast.err{border-color:rgba(224,90,90,.4);color:var(--red);}
+.scroll-top{position:fixed;bottom:1.25rem;left:50%;transform:translateX(-50%) translateY(70px);padding:.45rem 1.25rem;background:var(--bg3);border:1px solid var(--border2);border-radius:16px;font-size:.72rem;color:var(--text2);font-family:'DM Mono',monospace;cursor:pointer;transition:all .3s;z-index:50;}
+.scroll-top.show{transform:translateX(-50%) translateY(0);}
+.scroll-top:hover{border-color:var(--accent);color:var(--accent);}
+.progress{height:2px;background:var(--accent);width:0;transition:width .4s;position:fixed;top:0;left:0;right:0;z-index:200;}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">环球财经<span>GLOBAL MARKET NEWS</span></div>
+    <div class="clock" id="clock">--:--:--</div>
+    <div class="sep"></div>
+    <div class="actions">
+      <input type="password" id="apiKey" placeholder="Claude API Key (sk-ant-...)" style="width:230px" />
+      <button class="btn primary" id="fetchBtn" onclick="startFetch()">⚡ 抓取新闻</button>
+      <button class="btn" id="transBtn" onclick="translateAll()" disabled>🌐 全部翻译</button>
+      <button class="btn" onclick="clearAll()">✕ 清空</button>
+    </div>
+  </div>
+</header>
+
+<div class="filter-bar">
+  <div class="filter-inner">
+    <span class="fl">来源</span>
+    <button class="chip active" data-f="all" onclick="filt('all')"><span class="dot"></span>全部</button>
+    <div class="dv"></div>
+    <button class="chip" data-f="bloomberg" onclick="filt('bloomberg')"><span class="dot"></span>Bloomberg</button>
+    <button class="chip" data-f="cnbc" onclick="filt('cnbc')"><span class="dot"></span>CNBC</button>
+    <button class="chip" data-f="cnn" onclick="filt('cnn')"><span class="dot"></span>CNN</button>
+    <button class="chip" data-f="wsj" onclick="filt('wsj')"><span class="dot"></span>WSJ</button>
+    <button class="chip" data-f="reuters" onclick="filt('reuters')"><span class="dot"></span>Reuters</button>
+    <button class="chip" data-f="axios" onclick="filt('axios')"><span class="dot"></span>Axios</button>
+    <button class="chip" data-f="ft" onclick="filt('ft')"><span class="dot"></span>FT</button>
+    <button class="chip" data-f="yahoo" onclick="filt('yahoo')"><span class="dot"></span>Yahoo Finance</button>
+    <button class="chip" data-f="scmp" onclick="filt('scmp')"><span class="dot"></span>SCMP</button>
+    <button class="chip" data-f="zaobao" onclick="filt('zaobao')"><span class="dot"></span>联合早报</button>
+    <button class="chip" data-f="mktnews" onclick="filt('mktnews')"><span class="dot"></span>MktNews</button>
+    <div class="dv"></div>
+    <span class="fl">排序</span>
+    <select id="sortSel" onchange="renderAll()">
+      <option value="time">时间降序</option>
+      <option value="source">来源</option>
+    </select>
+    <div class="dv"></div>
+    <input type="text" id="search" placeholder="搜索..." style="width:140px" oninput="renderAll()" />
+  </div>
+</div>
+
+<div class="layout">
+  <div>
+    <div class="status-bar">
+      <div class="status-text" id="statusText">就绪 · 请输入 API Key 后点击抓取</div>
+      <div class="status-text">共 <b id="cnt">0</b> 条</div>
+    </div>
+    <div class="hi-bar" id="hiBar" style="display:none">
+      <div class="hi-title">⚡ 置顶快讯</div>
+      <div class="hi-items" id="hiItems"></div>
+    </div>
+    <div id="feed" class="news-feed">
+      <div class="empty">
+        <div class="empty-icon">📰</div>
+        <div class="empty-title">尚无新闻</div>
+        <div class="empty-desc">输入 Claude API Key 后点击「抓取新闻」<br>系统从本地服务器并发抓取 11 个媒体的 RSS<br>无法访问时自动用 Claude AI 生成同风格内容<br><br><b style="color:var(--text2)">来源：</b>Bloomberg · CNBC · CNN · WSJ · Reuters<br>Axios · FT · Yahoo Finance · SCMP · 联合早报 · MktNews</div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sc">
+      <div class="sc-title">来源状态</div>
+      <div class="ss-list" id="srcStatus"></div>
+    </div>
+    <div class="sc">
+      <div class="sc-title">热门话题</div>
+      <div class="tr-list" id="trends"><div style="font-size:.72rem;color:var(--text3);font-family:'DM Mono',monospace;">抓取后自动生成…</div></div>
+    </div>
+    <div class="sc">
+      <div class="sc-title">说明</div>
+      <div style="font-size:.72rem;color:var(--text3);line-height:1.75;font-family:'DM Mono',monospace;">
+        · RSS 直接抓取（真实新闻）<br>
+        · RSS 失败时 Claude AI 兜底<br>
+        · 侧边栏显示 <span style="color:var(--accent)">●</span> RSS成功<br>
+        · <span style="color:var(--text2)">●</span> Claude生成 · <span style="color:var(--red)">●</span> 失败<br><br>
+        <span style="color:var(--accent)">Ctrl+Enter</span> 快捷抓取<br>
+        <span style="color:var(--accent)">Ctrl+T</span> 批量翻译
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="scroll-top" id="scrollTop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ 顶部</div>
+
+<script>
+const API = 'http://localhost:8765';
+let allNews = [], curFilter = 'all', isFetching = false;
+
+function tick() {
+  const n = new Date();
+  const fmt = (tz, loc) => n.toLocaleTimeString(loc, {timeZone:tz,hour:'2-digit',minute:'2-digit',hour12:false});
+  document.getElementById('clock').textContent =
+    `北京 ${fmt('Asia/Shanghai','zh-CN')} · NY ${fmt('America/New_York','en-US')} · LON ${fmt('Europe/London','en-GB')}`;
+}
+setInterval(tick, 1000); tick();
+
+window.addEventListener('scroll', () => {
+  document.getElementById('scrollTop').classList.toggle('show', scrollY > 500);
+});
+
+function toast(msg, type='') {
+  const el = document.getElementById('toast');
+  el.textContent = msg; el.className = 'toast show ' + type;
+  setTimeout(() => el.className = 'toast', 3200);
+}
+
+function setProgress(pct) {
+  document.getElementById('progress').style.width = pct + '%';
+  if (pct >= 100) setTimeout(() => document.getElementById('progress').style.width = '0', 600);
+}
+
+function apiKey() { return document.getElementById('apiKey').value.trim(); }
+
+const SOURCES = {
+  bloomberg:'Bloomberg',cnbc:'CNBC',cnn:'CNN',wsj:'WSJ',reuters:'Reuters',
+  axios:'Axios',ft:'FT',yahoo:'Yahoo Finance',scmp:'SCMP',zaobao:'联合早报',mktnews:'MktNews'
+};
+let srcStatus = {};
+Object.keys(SOURCES).forEach(k => srcStatus[k] = {status:'idle',count:0});
+
+function renderSrcStatus() {
+  document.getElementById('srcStatus').innerHTML = Object.entries(SOURCES).map(([k,name]) => {
+    const s = srcStatus[k] || {};
+    const dot = s.status==='ok'?'ok':s.status==='error'?'err':s.status==='fallback'?'fallback':s.status==='loading'?'ld':'';
+    const label = s.status==='loading'?'…':s.status==='error'?'失败':s.status==='fallback'?`${s.count}条(AI)`:s.count>0?s.count+'条':'-';
+    return `<div class="ss-item"><span><span class="s-dot ${dot}"></span><span class="ss-name">${name}</span></span><span class="ss-count">${label}</span></div>`;
+  }).join('');
+}
+renderSrcStatus();
+
+async function startFetch() {
+  if (!apiKey()) { toast('请输入 Claude API Key', 'err'); return; }
+  if (isFetching) return;
+  isFetching = true;
+  document.getElementById('fetchBtn').disabled = true;
+  document.getElementById('fetchBtn').textContent = '⏳ 抓取中...';
+  document.getElementById('transBtn').disabled = true;
+  allNews = [];
+  document.getElementById('feed').innerHTML = shimmer(6);
+  document.getElementById('statusText').innerHTML = '<span class="live-dot"></span>正在并发抓取所有来源...';
+  document.getElementById('hiBar').style.display = 'none';
+  document.getElementById('cnt').textContent = '0';
+  Object.keys(SOURCES).forEach(k => srcStatus[k] = {status:'loading', count:0});
+  renderSrcStatus();
+  setProgress(20);
+
+  try {
+    const r = await fetch(`${API}/api/news`, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','X-API-Key': apiKey()},
+      body: JSON.stringify({})
+    });
+    setProgress(80);
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.error || 'Server error');
+
+    allNews = data.items || [];
+    if (data.sources) {
+      Object.entries(data.sources).forEach(([k, s]) => {
+        srcStatus[k] = s;
+      });
+    }
+    renderSrcStatus();
+    renderAll();
+    setProgress(100);
+    toast(`成功加载 ${allNews.length} 条新闻`, 'ok');
+    document.getElementById('statusText').innerHTML = '<span class="live-dot"></span>已加载最新数据';
+    document.getElementById('transBtn').disabled = false;
+    fetchTrends();
+  } catch(e) {
+    setProgress(0);
+    toast('抓取失败: ' + e.message, 'err');
+    document.getElementById('statusText').textContent = '抓取失败: ' + e.message;
+    document.getElementById('feed').innerHTML = `<div class="empty"><div class="empty-icon">⚠️</div><div class="empty-title">抓取失败</div><div class="empty-desc">${e.message}<br><br>请确认本地服务器正在运行：<br><code style="color:var(--accent)">python3 news_server.py</code></div></div>`;
+  }
+
+  isFetching = false;
+  document.getElementById('fetchBtn').disabled = false;
+  document.getElementById('fetchBtn').textContent = '⚡ 重新抓取';
+}
+
+function renderAll() {
+  let news = [...allNews];
+  if (curFilter !== 'all') news = news.filter(n => n.source === curFilter);
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  if (q) news = news.filter(n => n.title.toLowerCase().includes(q) || (n.translation||'').toLowerCase().includes(q) || n.sourceName.toLowerCase().includes(q));
+  const sort = document.getElementById('sortSel').value;
+  if (sort === 'time') news.sort((a,b) => b.timestamp - a.timestamp);
+  else news.sort((a,b) => a.source.localeCompare(b.source));
+
+  document.getElementById('cnt').textContent = news.length;
+  if (!news.length) {
+    document.getElementById('feed').innerHTML = `<div class="empty"><div class="empty-title">无匹配结果</div><div class="empty-desc">尝试调整筛选或搜索词</div></div>`;
+    return;
+  }
+  document.getElementById('feed').innerHTML = news.map(renderItem).join('');
+  updateHighlights(news.slice(0,5));
+}
+
+function renderItem(item) {
+  const t = new Date(item.timestamp);
+  const timeStr = t.toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Shanghai',hour12:false});
+  const diff = Date.now() - item.timestamp;
+  const dateStr = diff < 3600000 ? `${Math.floor(diff/60000)}分前` : diff < 86400000 ? `${Math.floor(diff/3600000)}小时前` : t.toLocaleDateString('zh-CN',{month:'short',day:'numeric'});
+  const isAI = item.tags && item.tags.includes('AI生成');
+  return `<div class="news-item" onclick="openItem('${item.id}', event)" data-id="${item.id}">
+    <div class="tc"><span class="nt">${timeStr}</span><span class="nd">${dateStr}</span></div>
+    <div class="nb">
+      <div class="src-row">
+        <span class="src-badge ${item.source}">${item.sourceName}</span>
+        ${isAI ? '<span class="ai-badge">AI</span>' : ''}
+        <span class="cat">${item.category}</span>
+      </div>
+      <div class="ntitle">${esc(item.title)}</div>
+      <div class="ntrans ${item.translated?'v':''}" id="tr_${item.id}">${esc(item.translation||'')}</div>
+      ${item.description ? `<div class="ndesc" id="desc_${item.id}">${esc(item.description.replace(/<[^>]*>/g,'').substring(0,180))}…</div>` : ''}
+      <div class="tags">
+        ${(item.tags||[]).filter(t=>t!=='AI生成').map(t=>`<span class="tag">${esc(t)}</span>`).join('')}
+        ${!item.translated ? `<span class="tag tr-btn" onclick="transOne('${item.id}',event)">译</span>` : ''}
+      </div>
+    </div>
+  </div>`;
+}
+
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function openItem(id, e) {
+  if (e.target.classList.contains('tr-btn')) return;
+  const item = allNews.find(n=>n.id===id);
+  if (item && item.link && item.link !== '#') window.open(item.link, '_blank');
+  e.currentTarget.classList.add('read');
+}
+
+function shimmer(n) {
+  return Array(n).fill(0).map(()=>`<div class="shimmer-item"><div><div class="sh" style="height:13px;width:38px;margin-bottom:5px"></div><div class="sh" style="height:10px;width:55px"></div></div><div><div class="sh" style="height:10px;width:75px;margin-bottom:7px"></div><div class="sh" style="height:15px;width:88%;margin-bottom:5px"></div><div class="sh" style="height:13px;width:70%"></div></div></div>`).join('');
+}
+
+function updateHighlights(items) {
+  if (!items.length) return;
+  document.getElementById('hiBar').style.display = 'block';
+  document.getElementById('hiItems').innerHTML = items.map(item => {
+    const text = item.translation || item.title;
+    return `<div class="hi-item" onclick="window.open('${item.link}','_blank')">${esc(text.substring(0,65))}${text.length>65?'…':''}</div>`;
+  }).join('');
+}
+
+async function transOne(id, e) {
+  e.stopPropagation();
+  if (!apiKey()) { toast('需要 API Key', 'err'); return; }
+  const item = allNews.find(n=>n.id===id);
+  if (!item || item.translated) return;
+  const el = document.getElementById(`tr_${id}`);
+  if (el) { el.textContent = '翻译中…'; el.classList.add('v'); }
+  try {
+    const r = await fetch(`${API}/api/translate`, {
+      method:'POST', headers:{'Content-Type':'application/json','X-API-Key':apiKey()},
+      body: JSON.stringify({titles:[item.title]})
+    });
+    const data = await r.json();
+    item.translation = data.translations?.[0] || '';
+    item.translated = true;
+    if (el) el.textContent = item.translation;
+    const btn = document.querySelector(`[data-id="${id}"] .tr-btn`);
+    if (btn) btn.remove();
+  } catch(e2) {
+    if (el) { el.textContent = '翻译失败'; el.classList.remove('v'); }
+  }
+}
+
+async function translateAll() {
+  if (!apiKey()) { toast('需要 API Key', 'err'); return; }
+  const untranslated = allNews.filter(n=>!n.translated);
+  if (!untranslated.length) { toast('已全部翻译', 'ok'); return; }
+  document.getElementById('transBtn').disabled = true;
+  const batchSize = 15;
+  let done = 0;
+  for (let i = 0; i < untranslated.length; i += batchSize) {
+    const batch = untranslated.slice(i, i + batchSize);
+    document.getElementById('transBtn').textContent = `翻译中 ${done}/${untranslated.length}`;
+    try {
+      const r = await fetch(`${API}/api/translate`, {
+        method:'POST', headers:{'Content-Type':'application/json','X-API-Key':apiKey()},
+        body: JSON.stringify({titles: batch.map(n=>n.title)})
+      });
+      const data = await r.json();
+      (data.translations||[]).forEach((t, idx) => {
+        if (batch[idx]) { batch[idx].translation = t; batch[idx].translated = true; }
+      });
+      done += batch.length;
+      setProgress(Math.round(done/untranslated.length*100));
+    } catch(e) { console.error(e); }
+  }
+  renderAll();
+  setProgress(100);
+  document.getElementById('transBtn').disabled = false;
+  document.getElementById('transBtn').textContent = '🌐 全部翻译';
+  toast(`翻译完成，共 ${done} 条`, 'ok');
+}
+
+async function fetchTrends() {
+  if (!apiKey() || !allNews.length) return;
+  try {
+    const r = await fetch(`${API}/api/trends`, {
+      method:'POST', headers:{'Content-Type':'application/json','X-API-Key':apiKey()},
+      body: JSON.stringify({titles: allNews.slice(0,40).map(n=>n.title)})
+    });
+    const data = await r.json();
+    const trends = data.trends || [];
+    document.getElementById('trends').innerHTML = trends.map((t,i) =>
+      `<div class="tr-item" onclick="document.getElementById('search').value='${t}';renderAll()"><span class="tr-num">${i+1}</span><span>${esc(t)}</span></div>`
+    ).join('') || '<div style="font-size:.72rem;color:var(--text3)">暂无热门话题</div>';
+  } catch(e) {}
+}
+
+function filt(src) {
+  curFilter = src;
+  document.querySelectorAll('.chip[data-f]').forEach(c => c.classList.toggle('active', c.dataset.f===src));
+  renderAll();
+}
+
+function clearAll() {
+  allNews = [];
+  Object.keys(SOURCES).forEach(k => srcStatus[k] = {status:'idle',count:0});
+  renderSrcStatus();
+  document.getElementById('feed').innerHTML = '<div class="empty"><div class="empty-icon">📰</div><div class="empty-title">已清空</div></div>';
+  document.getElementById('cnt').textContent = '0';
+  document.getElementById('statusText').textContent = '就绪';
+  document.getElementById('transBtn').disabled = true;
+  document.getElementById('hiBar').style.display = 'none';
+  document.getElementById('trends').innerHTML = '<div style="font-size:.72rem;color:var(--text3);font-family:\'DM Mono\',monospace;">抓取后自动生成…</div>';
+}
+
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey||e.metaKey) && e.key==='Enter') startFetch();
+  if ((e.ctrlKey||e.metaKey) && e.key==='t') { e.preventDefault(); translateAll(); }
+});
+
+const saved = sessionStorage.getItem('ck');
+if (saved) document.getElementById('apiKey').value = saved;
+document.getElementById('apiKey').addEventListener('input', e => sessionStorage.setItem('ck', e.target.value));
+
+fetch(`${API}/health`).then(r=>r.json()).then(d=>{
+  document.getElementById('statusText').textContent = `服务器已连接 · feedparser: ${d.feedparser?'✓ 已安装':'✗ 未安装（使用内置解析）'}`;
+}).catch(()=>{
+  document.getElementById('statusText').textContent = '⚠️ 无法连接本地服务器，请先运行 python3 news_server.py';
+});
+</script>
+</body>
+</html>

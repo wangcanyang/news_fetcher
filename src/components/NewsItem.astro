@@ -1,0 +1,46 @@
+---
+interface Props {
+  title_en: string;
+  title_zh: string;
+  link: string;
+  sourceName: string;
+  category: string;
+  timestamp: number;
+  description?: string;
+}
+
+const { title_en, title_zh, link, sourceName, category, timestamp, description } = Astro.props;
+
+function formatTime(ts: number): string {
+  const d = new Date(ts);
+  return d.toISOString().replace("T", " ").substring(0, 16) + " UTC";
+}
+---
+
+<div class="border-b-2 border-gray-800 py-3 px-2 hover:bg-neutral-950 transition-colors">
+  <!-- Source & Category Tags -->
+  <div class="flex items-center gap-2 mb-1">
+    <span class="text-xs font-bold text-amber-400 border border-amber-400 px-1.5 py-0.5 uppercase tracking-wider">{sourceName}</span>
+    <span class="text-xs text-gray-500 border border-gray-600 px-1.5 py-0.5 uppercase">{category}</span>
+    <span class="text-xs text-gray-600 ml-auto">{formatTime(timestamp)}</span>
+  </div>
+
+  <!-- Title -->
+  <a href={link} target="_blank" rel="noopener noreferrer" class="block group">
+    <!-- English title -->
+    <div class="text-white text-sm leading-snug group-hover:text-blue-400 transition-colors">
+      {title_en}
+    </div>
+    <!-- Chinese translation -->
+    {title_zh !== title_en && (
+      <div class="text-gray-400 text-xs leading-snug mt-0.5">
+        {title_zh}
+      </div>
+    )}
+  </a>
+
+  <!-- Description -->
+  {description && description.trim() && (
+    <div class="text-gray-600 text-xs mt-1 line-clamp-2">{description}</div>
+  )}
+</div>

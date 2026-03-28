@@ -1,0 +1,10 @@
+name = "news-fetcher-pages"
+compatibility_date = "2024-01-01"
+
+# D1 database binding - fill in database_id after running:
+#   wrangler d1 create news-fetcher-db
+# The database_name should match the name you chose or the output from the create command.
+[[d1_databases]]
+binding = "DB"
+database_name = "news-fetcher-db"
+database_id = "72d3a19e-c519-4901-822d-9041536c6796"
