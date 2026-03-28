@@ -1,6 +1,2128 @@
 {
-  "items": [],
-  "sources": {},
-  "total": 0,
-  "fetchedAt": 0
+  "items": [
+    {
+      "id": "scmp_0_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Pope Leo heads to swanky Monaco with pro-poor message",
+      "link": "https://www.scmp.com/news/world/europe/article/3348236/pope-leo-heads-swanky-monaco-pro-poor-message?utm_source=rss_feed",
+      "timestamp": 1774677908000,
+      "category": "亚太",
+      "description": "Pope Leo heads on Saturday to the Mediterranean principality of Monaco, a millionaires’ playground on the French Riviera that is the pontiff’s surprise pick for the first western European trip of his papacy.\nThe US-born pope, a former missionary critical of the wealthy elite, will helicopter in for ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Pope Leo heads to swanky Monaco with pro-poor message",
+      "title_zh": "Pope Leo heads to swanky Monaco with pro-poor message"
+    },
+    {
+      "id": "scmp_1_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Chinese lithium battery electrolyte could double EV range and run in extreme cold",
+      "link": "https://www.scmp.com/news/china/science/article/3348185/chinese-lithium-battery-electrolyte-could-double-ev-range-and-run-extreme-cold?utm_source=rss_feed",
+      "timestamp": 1774677614000,
+      "category": "亚太",
+      "description": "Chinese scientists have created an all-weather electrolyte that could improve lithium batteries, allowing them to operate more efficiently at room temperature and in extreme environments.\nThe research team from Shanghai and Tianjin said batteries made using the hydrofluorocarbon-based electrolyte ha",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Chinese lithium battery electrolyte could double EV range and run in extreme cold",
+      "title_zh": "Chinese lithium battery electrolyte could double EV range and run in extreme cold"
+    },
+    {
+      "id": "scmp_2_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "From rural girl to tycoon: China woman, 55, marries lover, 25, with US$7.3 million dowry",
+      "link": "https://www.scmp.com/news/people-culture/china-personalities/article/3347823/rural-girl-tycoon-china-woman-55-marries-lover-25-us73-million-dowry?utm_source=rss_feed",
+      "timestamp": 1774677609000,
+      "category": "亚太",
+      "description": "A 55-year-old Chinese medical aesthetics tycoon has shocked the internet by marrying her 25-year-old husband, reportedly with a 50 million yuan (US$7.3 million) dowry.\nYu Wenhong, 55, was born into a financially modest family in Dalian, Liaoning province, in northeastern China.\nAfter her father died",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "From rural girl to tycoon: China woman, 55, marries lover, 25, with US$7.3 million dowry",
+      "title_zh": "From rural girl to tycoon: China woman, 55, marries lover, 25, with US$7.3 million dowry"
+    },
+    {
+      "id": "scmp_3_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Indonesia begins social media ban for children under 16",
+      "link": "https://www.scmp.com/news/asia/southeast-asia/article/3348232/indonesia-begins-social-media-ban-children-under-16?utm_source=rss_feed",
+      "timestamp": 1774675808000,
+      "category": "亚太",
+      "description": "Indonesia on Saturday began implementing a new government regulation approved earlier this month that bans children younger than 16 from access to digital platforms that could expose them to pornography, cyberbullying, online scams and addiction.\nWith the move, Indonesia became the first country in ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Indonesia begins social media ban for children under 16",
+      "title_zh": "Indonesia begins social media ban for children under 16"
+    },
+    {
+      "id": "scmp_4_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Hong Kong government defends changes to national security law after US alert",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3348234/hong-kong-government-defends-changes-national-security-law-after-us-alert?utm_source=rss_feed",
+      "timestamp": 1774675405000,
+      "category": "亚太",
+      "description": "Hong Kong authorities have defended legal changes that have made it illegal to withhold smartphone passwords from police in national security investigations, after the United States sent a new alert to its citizens travelling to the city.\nThe government on Friday also expressed “strong dissatisfacti",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Hong Kong government defends changes to national security law after US alert",
+      "title_zh": "Hong Kong government defends changes to national security law after US alert"
+    },
+    {
+      "id": "scmp_5_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "As Vietnam leads on AI rules, Southeast Asia risks ‘economic own goal’",
+      "link": "https://www.scmp.com/week-asia/politics/article/3348187/vietnam-leads-ai-rules-southeast-asia-risks-economic-own-goal?utm_source=rss_feed",
+      "timestamp": 1774672208000,
+      "category": "亚太",
+      "description": "Southeast Asian countries are racing to assert control over their data flows, driven by a potent mix of nationalist sentiment and security anxieties.\nBut analysts warn that while certain measures may deliver domestic economic benefits, the broader push risks undermining innovation, deterring foreign",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "As Vietnam leads on AI rules, Southeast Asia risks ‘economic own goal’",
+      "title_zh": "As Vietnam leads on AI rules, Southeast Asia risks ‘economic own goal’"
+    },
+    {
+      "id": "scmp_6_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Hong Kong prison department’s IT system hacked, 6,800 employees’ data compromised",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3348230/hong-kong-prison-departments-it-system-hacked-6800-employees-data-compromised?utm_source=rss_feed",
+      "timestamp": 1774671693000,
+      "category": "亚太",
+      "description": "A computer system containing Hong Kong prison employees’ personal data has been hacked, compromising the information of 6,800 current and former staffers.\nThe Correctional Services Department said on Friday evening that a hacker had gained illegal access to one of its IT systems on Tuesday.\n“After a",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Hong Kong prison department’s IT system hacked, 6,800 employees’ data compromised",
+      "title_zh": "Hong Kong prison department’s IT system hacked, 6,800 employees’ data compromised"
+    },
+    {
+      "id": "scmp_7_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Can ‘reliable friend’ China fill the gap as US pressures allies to snub South Africa?",
+      "link": "https://www.scmp.com/news/china/diplomacy/article/3348226/can-reliable-friend-china-fill-gap-us-pressures-allies-snub-south-africa?utm_source=rss_feed",
+      "timestamp": 1774670441000,
+      "category": "亚太",
+      "description": "China pledged to continue its support for South Africa on the same day that it emerged that South African President Cyril Ramaphosa had been disinvited from this year’s Group of Seven (G7) summit in France following US threats to boycott the event.\nOn Thursday, Pretoria said that Ramaphosa’s invitat",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Can ‘reliable friend’ China fill the gap as US pressures allies to snub South Africa?",
+      "title_zh": "Can ‘reliable friend’ China fill the gap as US pressures allies to snub South Africa?"
+    },
+    {
+      "id": "scmp_8_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Why SD cards and hard drives are the new ‘digital gold’ in Hong Kong",
+      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3348225/why-sd-cards-and-hard-drives-are-new-digital-gold-hong-kong?utm_source=rss_feed",
+      "timestamp": 1774670436000,
+      "category": "亚太",
+      "description": "After Hong Kong photographer Jacky Lau Kin-sang upgraded his camera systems a few months ago, he was shocked to find that the professional-grade high-capacity SD cards for the set-up cost up to HK$3,000 (US$383) per unit, three times more than expected.\nBut the real shocker for the 42-year-old was t",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Why SD cards and hard drives are the new ‘digital gold’ in Hong Kong",
+      "title_zh": "Why SD cards and hard drives are the new ‘digital gold’ in Hong Kong"
+    },
+    {
+      "id": "scmp_9_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Bank of America to pay US$72.5 million to settle Epstein sex-trafficking lawsuit",
+      "link": "https://www.scmp.com/news/world/united-states-canada/article/3348228/bank-america-pay-us725-million-settle-epstein-sex-trafficking-lawsuit?utm_source=rss_feed",
+      "timestamp": 1774668801000,
+      "category": "亚太",
+      "description": "Bank of America has agreed to pay US$72.5 million to settle a class-action lawsuit alleging that the bank facilitated a sex-trafficking ring orchestrated by Jeffrey Epstein, court documents showed on Friday.\nBank of America said separately that while it continued to deny supporting Epstein’s crimes,",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Bank of America to pay US$72.5 million to settle Epstein sex-trafficking lawsuit",
+      "title_zh": "Bank of America to pay US$72.5 million to settle Epstein sex-trafficking lawsuit"
+    },
+    {
+      "id": "axios_0_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "House passes short-term DHS funding bill",
+      "link": "https://www.axios.com/2026/03/28/dhs-funding-tsa-house-senate-shutdown",
+      "timestamp": 1774668698000,
+      "category": "综合",
+      "description": "<p>The House on Friday night passed a bill to fund the Department of Homeland Security until May 22. </p><p><strong>Why it matters:</strong> House GOP leaders' decision not to act on a <a href=\"https://www.axios.com/2026/03/27/dhs-shutdown-senate-vote-trump-tsa-ice-cbp-fema\" target=\"_blank\">Senate-p",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "House passes short-term DHS funding bill",
+      "title_zh": "House passes short-term DHS funding bill"
+    },
+    {
+      "id": "scmp_10_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Nepal’s ex-PM K.P. Sharma Oli arrested over alleged role in crackdown on protesters",
+      "link": "https://www.scmp.com/news/asia/south-asia/article/3348224/nepals-ex-pm-kp-sharma-oli-arrested-over-alleged-role-crackdown-protesters?utm_source=rss_feed",
+      "timestamp": 1774666527000,
+      "category": "亚太",
+      "description": "Nepal’s former prime minister K.P. Sharma Oli and ex-home minister Ramesh Lekhak were arrested on Saturday morning over their alleged involvement in a deadly crackdown on protesters in September, police said.\nThe detentions come a day after Prime Minister Balendra Shah and his cabinet were sworn in ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Nepal’s ex-PM K.P. Sharma Oli arrested over alleged role in crackdown on protesters",
+      "title_zh": "Nepal’s ex-PM K.P. Sharma Oli arrested over alleged role in crackdown on protesters"
+    },
+    {
+      "id": "scmp_11_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "First Hong Kong Sevens rugby tourney held in 1976 – SCMP archive",
+      "link": "https://www.scmp.com/sport/rugby/hk-sevens/article/3348128/first-hong-kong-sevens-rugby-tourney-held-1976-scmp-archive?utm_source=rss_feed",
+      "timestamp": 1774665007000,
+      "category": "亚太",
+      "description": "This article was first published on March 29, 1976.\nBy Jack Beattie\nWorld ‘sevens’ for HK?\nA seven-a-side rugby union world cup competition – and possibly staged in Hongkong!\nThat’s the exciting prospect that emerged after yesterday’s first International “Sevens” Championships held at the Hongkong F",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "First Hong Kong Sevens rugby tourney held in 1976 – SCMP archive",
+      "title_zh": "First Hong Kong Sevens rugby tourney held in 1976 – SCMP archive"
+    },
+    {
+      "id": "scmp_12_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "US special envoy Witkoff predicts Iran talks as war enters second month",
+      "link": "https://www.scmp.com/news/world/united-states-canada/article/3348223/us-special-envoy-witkoff-predicts-iran-talks-war-enters-second-month?utm_source=rss_feed",
+      "timestamp": 1774664814000,
+      "category": "亚太",
+      "description": "US President Donald Trump’s special envoy Steve Witkoff said on Friday he believed Iran would hold talks with Washington “this week” as the US-Israeli war against Tehran entered its second month.\nThe war began on February 28 when the United States and Israel launched air strikes across Iran, killing",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "US special envoy Witkoff predicts Iran talks as war enters second month",
+      "title_zh": "US special envoy Witkoff predicts Iran talks as war enters second month"
+    },
+    {
+      "id": "scmp_13_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "How China’s EV makers think they can outrun disastrous price wars",
+      "link": "https://www.scmp.com/business/china-evs/article/3348131/how-chinas-ev-makers-think-they-can-outrun-disastrous-price-wars?utm_source=rss_feed",
+      "timestamp": 1774663213000,
+      "category": "亚太",
+      "description": "The era of price wars in China’s electric vehicle (EV) market is giving way to a new contest: who can deliver better technology at the same price.\nOn a cloudy evening in March, Shenzhen-based BYD put forward its answer with the unveiling of a battery capable of charging from 10 to 70 per cent in jus",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "How China’s EV makers think they can outrun disastrous price wars",
+      "title_zh": "How China’s EV makers think they can outrun disastrous price wars"
+    },
+    {
+      "id": "scmp_14_1774677953",
+      "source": "scmp",
+      "sourceName": "SCMP",
+      "title": "Death of South Korean ‘torture expert’ reopens authoritarian era wounds",
+      "link": "https://www.scmp.com/week-asia/people/article/3348204/death-south-korean-torture-expert-reopens-authoritarian-era-wounds?utm_source=rss_feed",
+      "timestamp": 1774661410000,
+      "category": "亚太",
+      "description": "The death of one of South Korea’s most notorious police officers, known for his torture methods on prisoners, has revived painful memories of human rights abuses during the country’s era of military-backed authoritarian rule.\nLee Geun-an, dubbed the “torture expert”, succumbed to multiple organ fail",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "SCMP",
+        "亚太"
+      ],
+      "title_en": "Death of South Korean ‘torture expert’ reopens authoritarian era wounds",
+      "title_zh": "Death of South Korean ‘torture expert’ reopens authoritarian era wounds"
+    },
+    {
+      "id": "axios_1_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Scoop: Rubio and EU official had heated exchange on Russia at G7 meeting",
+      "link": "https://www.axios.com/2026/03/28/rubio-kallas-ukraine-russia-argument-g7",
+      "timestamp": 1774657477000,
+      "category": "综合",
+      "description": "<p>EU foreign policy chief Kaja Kallas asked Secretary of State <a href=\"https://www.axios.com/2026/02/22/vance-rubio-2028-trump-question\" target=\"_blank\">Marco Rubio</a> when the U.S. would get tough on <a href=\"https://www.axios.com/world/russia\" target=\"_blank\">Russia</a> during a G7 ministers me",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Scoop: Rubio and EU official had heated exchange on Russia at G7 meeting",
+      "title_zh": "Scoop: Rubio and EU official had heated exchange on Russia at G7 meeting"
+    },
+    {
+      "id": "axios_2_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Trump's name is headed to dollar bills as cash use continues to decline",
+      "link": "https://www.axios.com/2026/03/27/trump-dollar-bills-cash-decline",
+      "timestamp": 1774647623000,
+      "category": "综合",
+      "description": "<p><a href=\"https://www.axios.com/politics-policy/donald-trump\" target=\"_blank\">President Trump</a>'s signature is set to appear on <a href=\"https://www.axios.com/2026/03/27/trump-money-signature-dollar-currency\" target=\"_blank\">U.S. currency</a> — a first for a sitting president — as Americans use ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Trump's name is headed to dollar bills as cash use continues to decline",
+      "title_zh": "Trump's name is headed to dollar bills as cash use continues to decline"
+    },
+    {
+      "id": "axios_3_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Johnson calls out GOP Senate over \"joke\" of a DHS plan",
+      "link": "https://www.axios.com/2026/03/27/dhs-funding-deal-ice-senate-talks-trump-thune",
+      "timestamp": 1774645813000,
+      "category": "综合",
+      "description": "<p>Sharp differences between House and Senate GOP leaders burst into the open this afternoon, with Senate Majority Leader John Thune's (R-S.D.) two-step plan to fund the Department of Homeland Security and then ICE the first casualty.</p><p><strong>Why it matters:</strong> The collapse was public — ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Johnson calls out GOP Senate over \"joke\" of a DHS plan",
+      "title_zh": "Johnson calls out GOP Senate over \"joke\" of a DHS plan"
+    },
+    {
+      "id": "ft_3_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "How Pakistan put itself in the middle of US-Iran peace talks",
+      "link": "https://www.ft.com/content/5f946eff-3e9c-4feb-ab6b-60e15cc3e183",
+      "timestamp": 1774645512000,
+      "category": "财经",
+      "description": "Islamabad seeks to capitalise on warming ties with both Trump and Tehran but has much to lose if efforts fail",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "How Pakistan put itself in the middle of US-Iran peace talks",
+      "title_zh": "How Pakistan put itself in the middle of US-Iran peace talks"
+    },
+    {
+      "id": "cnbc_2_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Epstein victims to get $72.5M from Bank of America settlement",
+      "link": "https://www.cnbc.com/2026/03/27/jeffrey-epstein-bank-of-america-lawsuit-settle.html",
+      "timestamp": 1774644350000,
+      "category": "财经",
+      "description": "The settlement by Bank of America comes nearly three years after JPMorgan Chase and Deutsche Bank settled similar lawsuits by victims of Jeffrey Epstein.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Epstein victims to get $72.5M from Bank of America settlement",
+      "title_zh": "Epstein victims to get $72.5M from Bank of America settlement"
+    },
+    {
+      "id": "ft_0_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "Iranian strike wounds US troops at air base in Saudi Arabia",
+      "link": "https://www.ft.com/content/99a5df0f-1c77-46db-abf1-543a4fe05862",
+      "timestamp": 1774643426000,
+      "category": "财经",
+      "description": "Marco Rubio says war to last another 2-4 weeks as oil benchmark closes at highest price since 2022",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "Iranian strike wounds US troops at air base in Saudi Arabia",
+      "title_zh": "Iranian strike wounds US troops at air base in Saudi Arabia"
+    },
+    {
+      "id": "bloomberg_1_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "China Urges Private Grain Firms to Tap Whole‑Grain Policy Push",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/china-urges-private-grain-firms-to-tap-whole-grain-policy-push",
+      "timestamp": 1774642024000,
+      "category": "财经",
+      "description": "China is directing private grain processors to expand and upgrade whole‑grain production, part of a broader drive to strengthen food security and modernize its agricultural supply chain.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "China Urges Private Grain Firms to Tap Whole‑Grain Policy Push",
+      "title_zh": "China Urges Private Grain Firms to Tap Whole‑Grain Policy Push"
+    },
+    {
+      "id": "bloomberg_2_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "China Calls on US Firms to Tap Rural Revitalization Drive",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/china-calls-on-us-firms-to-tap-rural-revitalization-drive",
+      "timestamp": 1774641757000,
+      "category": "财经",
+      "description": "US companies in China should seize opportunities from the Beijing’s rural revitalization drive and align their strengths with the needs of agricultural and rural development, Vice Agriculture Minister Zhang Zhili said.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "China Calls on US Firms to Tap Rural Revitalization Drive",
+      "title_zh": "China Calls on US Firms to Tap Rural Revitalization Drive"
+    },
+    {
+      "id": "bloomberg_3_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Mongolian PM Quits to End ‘Political Deadlock’ in Parliament",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/mongolian-pm-quits-to-end-political-deadlock-in-parliament",
+      "timestamp": 1774640708000,
+      "category": "财经",
+      "description": "Mongolia’s prime minister resigned on Friday to try to find a way out of the political deadlock that has gripped parliament.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Mongolian PM Quits to End ‘Political Deadlock’ in Parliament",
+      "title_zh": "Mongolian PM Quits to End ‘Political Deadlock’ in Parliament"
+    },
+    {
+      "id": "cnbc_6_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Tiger Woods arrested for DUI after rollover car crash, Florida sheriff says",
+      "link": "https://www.cnbc.com/2026/03/27/tiger-woods-rollover-car-crash-florida.html",
+      "timestamp": 1774639885000,
+      "category": "财经",
+      "description": "Golf legend Tiger Woods was arrested for a DUI after a rollover car crash in Florida on Friday, the Martin County sheriff said.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Tiger Woods arrested for DUI after rollover car crash, Florida sheriff says",
+      "title_zh": "Tiger Woods arrested for DUI after rollover car crash, Florida sheriff says"
+    },
+    {
+      "id": "bloomberg_0_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Australia Resumes Operations at Cyclone-Hit Commodity Port",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/australia-resumes-some-operations-at-cyclone-hit-key-port",
+      "timestamp": 1774635844000,
+      "category": "财经",
+      "description": "A major export port handling iron ore, liquefied natural gas and other bulk commodities on Australia’s west coast has reopened after cyclone damage had forced a shutdown.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Australia Resumes Operations at Cyclone-Hit Commodity Port",
+      "title_zh": "Australia Resumes Operations at Cyclone-Hit Commodity Port"
+    },
+    {
+      "id": "bloomberg_4_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Putin Is 'Messianic' About Expanding Power, Burns Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-28/putin-is-messianic-about-expanding-power-burns-says-video",
+      "timestamp": 1774634623000,
+      "category": "财经",
+      "description": "Former US Ambassador to China Nicholas Burns breaks down the global stakes of the Iran conflict, the war in Ukraine, and tensions with China. Burns discusses the way Iran could reshape geopolitical power, why Russia may be gaining strategic advantages, and what’s at risk if US alliances continue to ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Putin Is 'Messianic' About Expanding Power, Burns Says",
+      "title_zh": "Putin Is 'Messianic' About Expanding Power, Burns Says"
+    },
+    {
+      "id": "axios_4_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "What to know about Iran's military as the U.S. weighs ground operations",
+      "link": "https://www.axios.com/2026/03/27/iran-military-capabilities-ground-troops",
+      "timestamp": 1774633835000,
+      "category": "综合",
+      "description": "<p><a href=\"https://www.axios.com/world/iran\" target=\"_blank\">Iran's</a> military has taken a significant beating in the opening weeks of the <a href=\"https://www.axios.com/2026/02/28/iran-us-israel-strikes-operation-epic-fury\" target=\"_blank\">U.S.-Israeli offensive</a> — but Tehran continues to dem",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "What to know about Iran's military as the U.S. weighs ground operations",
+      "title_zh": "What to know about Iran's military as the U.S. weighs ground operations"
+    },
+    {
+      "id": "cnbc_4_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "TSA funding update: House GOP spikes DHS funding proposal, extending shutdown that's caused airport delays",
+      "link": "https://www.cnbc.com/2026/03/27/dhs-tsa-shutdown-congress.html",
+      "timestamp": 1774632269000,
+      "category": "财经",
+      "description": "President Donald Trump on Friday issued an executive order to pay Transportation Security Administration agents during the shutdown.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "TSA funding update: House GOP spikes DHS funding proposal, extending shutdown that's caused airport delays",
+      "title_zh": "TSA funding update: House GOP spikes DHS funding proposal, extending shutdown that's caused airport delays"
+    },
+    {
+      "id": "axios_5_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Sheila Cherfilus McCormick's fellow Democrats demand her resignation or expulsion",
+      "link": "https://www.axios.com/2026/03/27/cherfilus-mccormick-resign-expel-ethics-democrats",
+      "timestamp": 1774631141000,
+      "category": "综合",
+      "description": "<p>A growing number of House Democrats are calling on Rep. Sheila Cherfilus-McCormick (D-Fla.) to resign after the House Ethics Committee <a href=\"https://www.axios.com/2026/03/27/sheila-cherfilus-mccormick-guilty-ethics-trial\" target=\"_blank\">found her guilty of dozens of charges</a>, including ser",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Sheila Cherfilus McCormick's fellow Democrats demand her resignation or expulsion",
+      "title_zh": "Sheila Cherfilus McCormick's fellow Democrats demand her resignation or expulsion"
+    },
+    {
+      "id": "axios_6_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Rubio tells allies Iran war will continue 2-4 more weeks",
+      "link": "https://www.axios.com/2026/03/27/iran-war-timeline-rubio-2-4-weeks",
+      "timestamp": 1774630696000,
+      "category": "综合",
+      "description": "<p>Secretary of State Marco Rubio told G7 foreign ministers on Friday that the war with <a href=\"https://www.axios.com/world/iran\" target=\"_blank\">Iran</a> will continue for another two to four weeks, three sources with direct knowledge tell Axios.</p><p><strong>Why it matters: </strong>This is the ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Rubio tells allies Iran war will continue 2-4 more weeks",
+      "title_zh": "Rubio tells allies Iran war will continue 2-4 more weeks"
+    },
+    {
+      "id": "bloomberg_6_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "New $1 Billion Airport Near Delhi to Test India’s Buildout Boom",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/new-1-billion-airport-near-delhi-to-test-india-s-buildout-boom",
+      "timestamp": 1774627200000,
+      "category": "财经",
+      "description": "Realtors in Jewar are ecstatic. A construction frenzy sparked by an airport project has swept through this otherwise monotonous farming town near New Delhi.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "New $1 Billion Airport Near Delhi to Test India’s Buildout Boom",
+      "title_zh": "New $1 Billion Airport Near Delhi to Test India’s Buildout Boom"
+    },
+    {
+      "id": "bloomberg_7_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Music Festivals Put Down Roots in Asia as War Makes Travel Tough",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/music-festivals-put-down-roots-in-asia-as-war-makes-travel-tough",
+      "timestamp": 1774627200000,
+      "category": "财经",
+      "description": "Global music festivals are moving closer to their audiences in Asia as war-driven travel disruptions reshape how far fans are willing to go.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Music Festivals Put Down Roots in Asia as War Makes Travel Tough",
+      "title_zh": "Music Festivals Put Down Roots in Asia as War Makes Travel Tough"
+    },
+    {
+      "id": "axios_7_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Borrowing costs are surging amid Iran war",
+      "link": "https://www.axios.com/2026/03/27/iran-war-treasury-inflation-rate-cuts",
+      "timestamp": 1774626905000,
+      "category": "综合",
+      "description": "<div>Data: Federal Reserve; Chart: Neil Irwin/Axios</div><p>The <a href=\"https://www.axios.com/world/iran\" target=\"_blank\">Iran</a> war is sending longer-term borrowing costs surging amid prospects for higher inflation, fewer Federal Reserve rate cuts and more federal borrowing.</p><p><strong>Why it",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Borrowing costs are surging amid Iran war",
+      "title_zh": "Borrowing costs are surging amid Iran war"
+    },
+    {
+      "id": "ft_1_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "Global markets recoil as Rubio warns war in Iran could stretch for weeks",
+      "link": "https://www.ft.com/content/4f095d4b-46cb-4ed6-90cf-aa560fba2bc1",
+      "timestamp": 1774626716000,
+      "category": "财经",
+      "description": "Comments from US secretary of state come as oil jumps to $114 and Wall Street stocks slide",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "Global markets recoil as Rubio warns war in Iran could stretch for weeks",
+      "title_zh": "Global markets recoil as Rubio warns war in Iran could stretch for weeks"
+    },
+    {
+      "id": "axios_8_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Iran-linked group claims hack of FBI Director Kash Patel",
+      "link": "https://www.axios.com/2026/03/27/fbi-kash-patel-iran-cyberattack",
+      "timestamp": 1774626603000,
+      "category": "综合",
+      "description": "<p>A <a href=\"https://www.axios.com/2026/03/11/iran-war-trump-israel-ai-cyberattack\" target=\"_blank\">hacktivist group</a> that the U.S. has linked to back to Iranian intelligence services claims it has stolen \"personal and confidential information\" from FBI Director Kash Patel, including emails, doc",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Iran-linked group claims hack of FBI Director Kash Patel",
+      "title_zh": "Iran-linked group claims hack of FBI Director Kash Patel"
+    },
+    {
+      "id": "bloomberg_8_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Ex-Mozambique Finance Minister in ICE Custody After Travel Snafu",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-27/ex-mozambique-finance-minister-in-ice-custody-after-travel-snafu",
+      "timestamp": 1774626085000,
+      "category": "财经",
+      "description": "A former Mozambique finance minister convicted in the US for his role in a $2 billion bond fraud was set to be deported Thursday after his release from prison, but was instead detained by Immigration and Customs Enforcement, according to his lawyer.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Ex-Mozambique Finance Minister in ICE Custody After Travel Snafu",
+      "title_zh": "Ex-Mozambique Finance Minister in ICE Custody After Travel Snafu"
+    },
+    {
+      "id": "axios_9_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Mike Johnson faces a rocky path to funding DHS",
+      "link": "https://www.axios.com/2026/03/27/mike-johnson-dhs-funding-freedom-caucus",
+      "timestamp": 1774625711000,
+      "category": "综合",
+      "description": "<p>Hardline House conservatives are threatening to sink a <a href=\"https://www.axios.com/2026/03/27/dhs-shutdown-senate-vote-trump-tsa-ice-cbp-fema\" target=\"_blank\">Senate-passed DHS funding bill</a>, escalating a standoff that's already kept the agency shut down for more than five weeks.</p><p><str",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Mike Johnson faces a rocky path to funding DHS",
+      "title_zh": "Mike Johnson faces a rocky path to funding DHS"
+    },
+    {
+      "id": "cnbc_1_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Trump calls Strait of Hormuz the 'Strait of Trump'",
+      "link": "https://www.cnbc.com/2026/03/27/trump-strait-of-hormuz-iran-war.html",
+      "timestamp": 1774624942000,
+      "category": "财经",
+      "description": "Trump recently floated the possibility that the strait could be controlled jointly by \"me and the ayatollah\" as part of a resolution to the Iran war.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Trump calls Strait of Hormuz the 'Strait of Trump'",
+      "title_zh": "Trump calls Strait of Hormuz the 'Strait of Trump'"
+    },
+    {
+      "id": "bloomberg_9_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Wall Street Week | China’s Role in Iran War, Global Fertilizer Disruptions, Matcha’s Supply Problem",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-27/wall-street-week-global-fertilizer-supply-disruptions-video",
+      "timestamp": 1774624419000,
+      "category": "财经",
+      "description": "This week, the Fed holds rates steady, anticipating greater uncertainty and higher prices as war in Iran drives up fertilizer and fuel costs. Plus, letting first-time homebuyers tap retirement savings might ease down payments, but it can also fuel demand and push home prices higher. Later, can farme",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Wall Street Week | China’s Role in Iran War, Global Fertilizer Disruptions, Matcha’s Supply Problem",
+      "title_zh": "Wall Street Week | China’s Role in Iran War, Global Fertilizer Disruptions, Matcha’s Supply Problem"
+    },
+    {
+      "id": "bloomberg_10_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "The Close 3/27/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-27/the-close-3-27-2026-video",
+      "timestamp": 1774623302000,
+      "category": "财经",
+      "description": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Morgan Stanley’s Jim Caron, Los Angeles Mayor Karen Bass, Bernstein Research’s Stacy Rasgon, TWG Global Managing Partner Amos ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "The Close 3/27/2026",
+      "title_zh": "The Close 3/27/2026"
+    },
+    {
+      "id": "cnbc_3_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "TSA wait times: Track security lines by airport in the U.S.",
+      "link": "https://www.cnbc.com/guide/tsa-wait-times/",
+      "timestamp": 1774622856000,
+      "category": "财经",
+      "description": "Travelers are facing long lines at airports across the U.S. as a partial government shutdown drags on.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "TSA wait times: Track security lines by airport in the U.S.",
+      "title_zh": "TSA wait times: Track security lines by airport in the U.S."
+    },
+    {
+      "id": "bloomberg_5_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Fund With Anthropic Stake Slides in Post-Listing Reversal",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-27/fund-with-anthropic-stake-extends-drop-in-stunning-ipo-reversal",
+      "timestamp": 1774622635000,
+      "category": "财经",
+      "description": "Shares of the Fundrise Innovation Fund fell sharply for a second straight day Friday, though remain well above the underlying value of its holdings in private tech firms including the potentially IPO-bound SpaceX and Anthropic PBC.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Fund With Anthropic Stake Slides in Post-Listing Reversal",
+      "title_zh": "Fund With Anthropic Stake Slides in Post-Listing Reversal"
+    },
+    {
+      "id": "cnbc_10_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Cramer’s game plan: Oil shock is driving this sell-off and tech won’t bottom until it ends",
+      "link": "https://www.cnbc.com/2026/03/27/cramers-gameplan-oil-driving-sell-off-tech-wont-bottom-until-it-ends.html",
+      "timestamp": 1774621929000,
+      "category": "财经",
+      "description": "Jim Cramer says the market sell-off is driven by rising oil tied to the Iran war, with tech stocks taking a huge hit.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Cramer’s game plan: Oil shock is driving this sell-off and tech won’t bottom until it ends",
+      "title_zh": "Cramer’s game plan: Oil shock is driving this sell-off and tech won’t bottom until it ends"
+    },
+    {
+      "id": "bloomberg_11_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Argentina’s $150 Million Bond Sale Prices Risk After Milei’s Term",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-27/argentina-s-150-million-bond-sale-prices-risk-after-milei-s-term",
+      "timestamp": 1774621860000,
+      "category": "财经",
+      "description": "Argentina sold $150 million of a bond denominated in dollars on Friday that gauged investors appetite to finance the government beyond President Javier Milei’s first term.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Argentina’s $150 Million Bond Sale Prices Risk After Milei’s Term",
+      "title_zh": "Argentina’s $150 Million Bond Sale Prices Risk After Milei’s Term"
+    },
+    {
+      "id": "ft_7_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "KPMG to cut almost 600 UK jobs as slowdown persists",
+      "link": "https://www.ft.com/content/f968bf7f-ad09-4748-a201-5f8ab1deaf11",
+      "timestamp": 1774621456000,
+      "category": "财经",
+      "description": "Big Four firm and rivals are struggling to regain footing even after reductions in headcount and costs",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "KPMG to cut almost 600 UK jobs as slowdown persists",
+      "title_zh": "KPMG to cut almost 600 UK jobs as slowdown persists"
+    },
+    {
+      "id": "bloomberg_12_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Trump Repeats Call to Fully Open Strait of Hormuz",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-27/trump-repeats-call-to-fully-open-strait-of-hormuz-video",
+      "timestamp": 1774620596000,
+      "category": "财经",
+      "description": "Speaking in Miami, President Donald Trump says he hopes a deal can be reached with Iran and talks are ongoing, but the Strait of Hormuz has to be fully repoened. (Source: Bloomberg)",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Trump Repeats Call to Fully Open Strait of Hormuz",
+      "title_zh": "Trump Repeats Call to Fully Open Strait of Hormuz"
+    },
+    {
+      "id": "bloomberg_13_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "LA Mayor: Number One Issue Facing City Is Affordability",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-27/la-mayor-number-one-issue-facing-city-is-affordability-video",
+      "timestamp": 1774620407000,
+      "category": "财经",
+      "description": "Los Angeles Mayor Karen Bass discusses the current state of gas prices and unemployment and plans to keep the filming industry in the city. She also discusses working with Casey Wasserman for the 2028 olympics, and as the World Cup comes to California the mayor sees it as an economic boom. She speak",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "LA Mayor: Number One Issue Facing City Is Affordability",
+      "title_zh": "LA Mayor: Number One Issue Facing City Is Affordability"
+    },
+    {
+      "id": "cnbc_0_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Tech stocks suffer worst week in nearly a year, driven down by war worries, Meta legal woes",
+      "link": "https://www.cnbc.com/2026/03/27/tech-stocks-iran-war-meta-verdict.html",
+      "timestamp": 1774620393000,
+      "category": "财经",
+      "description": "Meta's twin legal defeats this week and a big sell-off in Micron spurred a drop in technology stocks, which were broadly hit by rising oil prices.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Tech stocks suffer worst week in nearly a year, driven down by war worries, Meta legal woes",
+      "title_zh": "Tech stocks suffer worst week in nearly a year, driven down by war worries, Meta legal woes"
+    },
+    {
+      "id": "axios_10_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Fiery Ethics Committee hearing ends in guilty ruling for Rep. Sheila Cherfilus-McCormick",
+      "link": "https://www.axios.com/2026/03/27/sheila-cherfilus-mccormick-guilty-ethics-trial",
+      "timestamp": 1774620227000,
+      "category": "综合",
+      "description": "<p>A bipartisan panel of House Ethics Committee members found Rep. <a href=\"https://www.axios.com/2026/02/04/cherfilus-mccormick-ethics-committee-trial-public\" target=\"_blank\">Sheila Cherfilus-McCormick</a> (D-Fla.) guilty of financial misconduct and other charges on summary judgment following a tes",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Fiery Ethics Committee hearing ends in guilty ruling for Rep. Sheila Cherfilus-McCormick",
+      "title_zh": "Fiery Ethics Committee hearing ends in guilty ruling for Rep. Sheila Cherfilus-McCormick"
+    },
+    {
+      "id": "bloomberg_14_1774677953",
+      "source": "bloomberg",
+      "sourceName": "Bloomberg",
+      "title": "Tiger Woods in Rollover Car Crash in Florida",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-27/tiger-woods-in-rollover-car-crash-in-florida",
+      "timestamp": 1774620154000,
+      "category": "财经",
+      "description": "Tiger Woods was arrested on suspicion of DUI Friday at the scene of a car crash in which he struck another vehicle and rolled his Land Rover, authorities said. The Martin County Sheriff’s Office said Woods was not injured. (Source: Bloomberg)",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Bloomberg",
+        "财经"
+      ],
+      "title_en": "Tiger Woods in Rollover Car Crash in Florida",
+      "title_zh": "Tiger Woods in Rollover Car Crash in Florida"
+    },
+    {
+      "id": "ft_2_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "Gulf officials seek to calm investors as war rattles confidence",
+      "link": "https://www.ft.com/content/c5ea85a8-e08b-4773-9c07-2e10c6fce73f",
+      "timestamp": 1774618528000,
+      "category": "财经",
+      "description": "Delegates at a Miami conference urged to continue investing in the region",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "Gulf officials seek to calm investors as war rattles confidence",
+      "title_zh": "Gulf officials seek to calm investors as war rattles confidence"
+    },
+    {
+      "id": "axios_11_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Exclusive: Obama urged Newsom on California's Prop 50 redistricting push",
+      "link": "https://www.axios.com/2026/03/27/california-newsom-obama-prop-50-redistricting",
+      "timestamp": 1774616406000,
+      "category": "综合",
+      "description": "<iframe src=\"https://cdn.jwplayer.com/players/ntoBDc7c-AeXnLRNE.html\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen ></iframe><p>California Gov. Gavin Newsom called former President Barack Obama before launching his aggressive <a href=\"https://www.axios.com/local/san-francisco/2025/10/09/californ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Exclusive: Obama urged Newsom on California's Prop 50 redistricting push",
+      "title_zh": "Exclusive: Obama urged Newsom on California's Prop 50 redistricting push"
+    },
+    {
+      "id": "cnbc_5_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "TSA officers will start getting paychecks as early as Monday, DHS says",
+      "link": "https://www.cnbc.com/2026/03/27/tsa-dhs-paychecks-shutdown.html",
+      "timestamp": 1774613406000,
+      "category": "财经",
+      "description": "The announcement comes as long lines for TSA screening of air travelers at  airports around the United States persist.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "TSA officers will start getting paychecks as early as Monday, DHS says",
+      "title_zh": "TSA officers will start getting paychecks as early as Monday, DHS says"
+    },
+    {
+      "id": "cnbc_12_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Cybersecurity stocks fall on report Anthropic is testing a powerful new model",
+      "link": "https://www.cnbc.com/2026/03/27/anthropic-cybersecurity-stocks-ai-mythos.html",
+      "timestamp": 1774613062000,
+      "category": "财经",
+      "description": "The cybersecurity sector has slumped this year on fears that new AI will massively disrupt their business models.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Cybersecurity stocks fall on report Anthropic is testing a powerful new model",
+      "title_zh": "Cybersecurity stocks fall on report Anthropic is testing a powerful new model"
+    },
+    {
+      "id": "cnbc_7_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Epstein victims sue Google and the Trump administration over alleged disclosure of personal information",
+      "link": "https://www.cnbc.com/2026/03/27/jeffrey-epstein-victims-sue-trump-administration-google.html",
+      "timestamp": 1774612655000,
+      "category": "财经",
+      "description": "A lawsuit filed in Northern California alleges that Google's AI features generated contact information for Epstein victims.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Epstein victims sue Google and the Trump administration over alleged disclosure of personal information",
+      "title_zh": "Epstein victims sue Google and the Trump administration over alleged disclosure of personal information"
+    },
+    {
+      "id": "ft_8_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "Memory chip stocks shed $100bn as AI-driven shortage trade unwinds",
+      "link": "https://www.ft.com/content/e4e15692-187e-4466-832e-ec267e792292",
+      "timestamp": 1774610911000,
+      "category": "财经",
+      "description": "New research suggests AI data centres will need much less memory than investors had bargained for",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "Memory chip stocks shed $100bn as AI-driven shortage trade unwinds",
+      "title_zh": "Memory chip stocks shed $100bn as AI-driven shortage trade unwinds"
+    },
+    {
+      "id": "cnbc_11_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "White House launches app touting Trump's record, with some key omissions",
+      "link": "https://www.cnbc.com/2026/03/27/white-house-app-trump-iran-war-oil-gas-ice.html",
+      "timestamp": 1774610838000,
+      "category": "财经",
+      "description": "The app includes a link to report tips to Immigration and Customs Enforcement.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "White House launches app touting Trump's record, with some key omissions",
+      "title_zh": "White House launches app touting Trump's record, with some key omissions"
+    },
+    {
+      "id": "cnbc_14_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Oil prices close at highest level since 2022 as Iran negotiations fail to ease supply fears",
+      "link": "https://www.cnbc.com/2026/03/27/oil-price-wti-brent-crude-trump-strait-hormuz-tensions-iran-ships.html",
+      "timestamp": 1774609972000,
+      "category": "财经",
+      "description": "Oil prices traded higher after U.S. President Donald Trump said Iran had allowed 10 oil tankers to pass through the Strait of Hormuz.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Oil prices close at highest level since 2022 as Iran negotiations fail to ease supply fears",
+      "title_zh": "Oil prices close at highest level since 2022 as Iran negotiations fail to ease supply fears"
+    },
+    {
+      "id": "ft_5_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "UK diesel stockpiles at risk, warn traders",
+      "link": "https://www.ft.com/content/b20bd209-0f76-486a-8ad5-d2fb7f539b24",
+      "timestamp": 1774609571000,
+      "category": "财经",
+      "description": "Commercial inventories could be used up by mid-May if the Strait of Hormuz remains closed",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "UK diesel stockpiles at risk, warn traders",
+      "title_zh": "UK diesel stockpiles at risk, warn traders"
+    },
+    {
+      "id": "yahoo_5_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Analyst Report: Paychex Inc",
+      "link": "https://finance.yahoo.com/research/reports/ARGUS_3608_AnalystReport_1774609122000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "timestamp": 1774609122000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Analyst Report: Paychex Inc",
+      "title_zh": "Analyst Report: Paychex Inc"
+    },
+    {
+      "id": "yahoo_11_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Analyst Report: Campbell's Company/The",
+      "link": "https://finance.yahoo.com/research/reports/ARGUS_2862_AnalystReport_1774609122000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "timestamp": 1774609122000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Analyst Report: Campbell's Company/The",
+      "title_zh": "Analyst Report: Campbell's Company/The"
+    },
+    {
+      "id": "axios_12_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Vance's greatest challenge: Making peace with Iran",
+      "link": "https://www.axios.com/2026/03/27/vance-iran-peace-talks",
+      "timestamp": 1774605294000,
+      "category": "综合",
+      "description": "<p>Vice President <a href=\"https://www.axios.com/2026/03/05/vance-hosts-6-million-fundraiser-in-dc-suburb\" target=\"_blank\">JD Vance</a> is preparing to take on the most important assignment of his career: steering U.S. efforts to <a href=\"https://www.axios.com/2026/03/26/trump-iran-talks-deadline-ex",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Vance's greatest challenge: Making peace with Iran",
+      "title_zh": "Vance's greatest challenge: Making peace with Iran"
+    },
+    {
+      "id": "ft_9_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "Google nears deal to help finance multibillion-dollar data centre leased to Anthropic",
+      "link": "https://www.ft.com/content/af949b0b-3e24-4eaa-9a52-0a841ac1ff22",
+      "timestamp": 1774604580000,
+      "category": "财经",
+      "description": "Texas site for Nexus Data Centers aims to avoid grid connection delays with direct gas supplies",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "Google nears deal to help finance multibillion-dollar data centre leased to Anthropic",
+      "title_zh": "Google nears deal to help finance multibillion-dollar data centre leased to Anthropic"
+    },
+    {
+      "id": "axios_13_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "Late night Senate vote puts DHS shutdown one step closer to largely ending",
+      "link": "https://www.axios.com/2026/03/27/dhs-shutdown-senate-vote-trump-tsa-ice-cbp-fema",
+      "timestamp": 1774604400000,
+      "category": "综合",
+      "description": "<p>The U.S. Senate voted overnight to pass a bill that would reopen all of the <a href=\"https://www.axios.com/2026/03/24/dhs-funding-deal-ice-senate-talks-trump-thune\" target=\"_blank\">Department of Homeland Security</a>, except a few immigration enforcement agencies.</p><p><strong>Why it matters: </",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "Late night Senate vote puts DHS shutdown one step closer to largely ending",
+      "title_zh": "Late night Senate vote puts DHS shutdown one step closer to largely ending"
+    },
+    {
+      "id": "axios_14_1774677952",
+      "source": "axios",
+      "sourceName": "Axios",
+      "title": "White House AI rollout exposes widening rift",
+      "link": "https://www.axios.com/2026/03/27/white-house-ai-rollout-rift",
+      "timestamp": 1774602005000,
+      "category": "综合",
+      "description": "<p>A week after the White House unveiled its long-awaited national <a href=\"https://www.axios.com/technology/automation-and-ai\" target=\"_blank\">AI</a> legislative <a href=\"https://www.axios.com/2026/03/20/white-house-ai-plan-trump-framework\" target=\"_blank\">framework</a>, Washington has renewed mome",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Axios",
+        "综合"
+      ],
+      "title_en": "White House AI rollout exposes widening rift",
+      "title_zh": "White House AI rollout exposes widening rift"
+    },
+    {
+      "id": "ft_4_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "What the Iran war teaches America’s adversaries",
+      "link": "https://www.ft.com/content/267f4f7f-eab9-42c4-ae5a-042247c400cf",
+      "timestamp": 1774599471000,
+      "category": "财经",
+      "description": "The third Gulf war augurs a more anarchic world — and more dependence on a less credible US",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "What the Iran war teaches America’s adversaries",
+      "title_zh": "What the Iran war teaches America’s adversaries"
+    },
+    {
+      "id": "ft_10_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "US seeks to scrap offshore wind projects in exchange for fossil fuel deals",
+      "link": "https://www.ft.com/content/a73e04be-ebf1-44cf-9876-f4b521f009b7",
+      "timestamp": 1774599289000,
+      "category": "财经",
+      "description": "Interior department in talks with companies that hold leases to build plants off America’s coastline",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "US seeks to scrap offshore wind projects in exchange for fossil fuel deals",
+      "title_zh": "US seeks to scrap offshore wind projects in exchange for fossil fuel deals"
+    },
+    {
+      "id": "ft_6_1774677952",
+      "source": "ft",
+      "sourceName": "FT",
+      "title": "Time to tackle the rank absurdities in UK energy policy",
+      "link": "https://www.ft.com/content/adfa1335-f12c-41d1-ac2f-d9895c8ab288",
+      "timestamp": 1774595303000,
+      "category": "财经",
+      "description": "The debate over North Sea oil and gas resembles a bar brawl between opponents who can’t see straight",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "FT",
+        "财经"
+      ],
+      "title_en": "Time to tackle the rank absurdities in UK energy policy",
+      "title_zh": "Time to tackle the rank absurdities in UK energy policy"
+    },
+    {
+      "id": "cnbc_13_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Sony hikes PS5 prices by up to $150 citing 'pressures' in global economy",
+      "link": "https://www.cnbc.com/2026/03/27/sony-playstation-5-ps5-price-rise.html",
+      "timestamp": 1774591726000,
+      "category": "财经",
+      "description": "Sony, like other console makers, is contending with surging memory chip prices which have forced the company to raise prices.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Sony hikes PS5 prices by up to $150 citing 'pressures' in global economy",
+      "title_zh": "Sony hikes PS5 prices by up to $150 citing 'pressures' in global economy"
+    },
+    {
+      "id": "cnbc_9_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
+      "link": "https://www.cnbc.com/2026/03/26/inifiniti-qx65-suv-nissan.html",
+      "timestamp": 1774589975000,
+      "category": "财经",
+      "description": "Infiniti is releasing a new midsize SUV, the QX65, in an effort to turn around sales in the U.S. market.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
+      "title_zh": "Infiniti hopes new SUV can turn around fortunes in the U.S."
+    },
+    {
+      "id": "cnbc_8_1774677952",
+      "source": "cnbc",
+      "sourceName": "CNBC",
+      "title": "Elon Musk's Boring Co. tunnels aren't wanted by most Nashville residents",
+      "link": "https://www.cnbc.com/2026/03/26/elon-musks-boring-co-tunnels-not-wanted-by-most-nashville-residents.html",
+      "timestamp": 1774585943000,
+      "category": "财经",
+      "description": "A new survey by Vanderbilt University found that most Nashville residents don't want Boring Company tunnels in their city.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNBC",
+        "财经"
+      ],
+      "title_en": "Elon Musk's Boring Co. tunnels aren't wanted by most Nashville residents",
+      "title_zh": "Elon Musk's Boring Co. tunnels aren't wanted by most Nashville residents"
+    },
+    {
+      "id": "yahoo_8_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "The General Mills Dividend Yields 6.53%. Is That Enough to Make Up for an Oil Price Shock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/general-mills-dividend-yields-6-233002748.html",
+      "timestamp": 1774567802000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "The General Mills Dividend Yields 6.53%. Is That Enough to Make Up for an Oil Price Shock?",
+      "title_zh": "The General Mills Dividend Yields 6.53%. Is That Enough to Make Up for an Oil Price Shock?"
+    },
+    {
+      "id": "yahoo_1_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "NY Fed official said central bank bill buying should moderate soon",
+      "link": "https://finance.yahoo.com/economy/policy/articles/ny-fed-official-said-central-230624689.html",
+      "timestamp": 1774566384000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "NY Fed official said central bank bill buying should moderate soon",
+      "title_zh": "NY Fed official said central bank bill buying should moderate soon"
+    },
+    {
+      "id": "yahoo_12_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Pernod Ricard in Talks to Combine With Jack Daniel’s Maker Brown-Forman",
+      "link": "https://www.wsj.com/business/retail/pernod-ricard-in-talks-to-combine-with-jack-daniels-maker-brown-forman-a468fc53?siteid=yhoof2&yptr=yahoo",
+      "timestamp": 1774566240000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Pernod Ricard in Talks to Combine With Jack Daniel’s Maker Brown-Forman",
+      "title_zh": "Pernod Ricard in Talks to Combine With Jack Daniel’s Maker Brown-Forman"
+    },
+    {
+      "id": "yahoo_0_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Veritone (VERI) Q4 2025 Earnings Call Transcript",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/veritone-veri-q4-2025-earnings-225823693.html",
+      "timestamp": 1774565903000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Veritone (VERI) Q4 2025 Earnings Call Transcript",
+      "title_zh": "Veritone (VERI) Q4 2025 Earnings Call Transcript"
+    },
+    {
+      "id": "yahoo_6_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Goldman Sachs picks 3 ‘attractive’ stocks",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/157-old-wall-street-giant-225327244.html",
+      "timestamp": 1774565607000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Goldman Sachs picks 3 ‘attractive’ stocks",
+      "title_zh": "Goldman Sachs picks 3 ‘attractive’ stocks"
+    },
+    {
+      "id": "yahoo_3_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Fed's Miran lays out path to shrink central bank balance sheet further",
+      "link": "https://finance.yahoo.com/economy/policy/articles/feds-miran-lays-path-shrink-223325601.html",
+      "timestamp": 1774564405000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Fed's Miran lays out path to shrink central bank balance sheet further",
+      "title_zh": "Fed's Miran lays out path to shrink central bank balance sheet further"
+    },
+    {
+      "id": "yahoo_4_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "T-Rex files for leveraged SpaceX, Anthropic ETFs ahead of anticipated IPOs",
+      "link": "https://finance.yahoo.com/markets/options/articles/t-rex-files-leveraged-spacex-222054617.html",
+      "timestamp": 1774563654000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "T-Rex files for leveraged SpaceX, Anthropic ETFs ahead of anticipated IPOs",
+      "title_zh": "T-Rex files for leveraged SpaceX, Anthropic ETFs ahead of anticipated IPOs"
+    },
+    {
+      "id": "yahoo_7_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Tesla Touts Lower EV Delivery Estimate. The Stock Is Falling.",
+      "link": "https://www.investors.com/news/tesla-stock-deliveries-model-y-cybertruck-elon-musk-cars-electric-vehicles/?src=A00220&yptr=yahoo",
+      "timestamp": 1774563387000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Tesla Touts Lower EV Delivery Estimate. The Stock Is Falling.",
+      "title_zh": "Tesla Touts Lower EV Delivery Estimate. The Stock Is Falling."
+    },
+    {
+      "id": "yahoo_9_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "How to get a low interest loan in 7 steps",
+      "link": "https://finance.yahoo.com/news/qualify-low-interest-personal-loans-221743658.html",
+      "timestamp": 1774562916000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "How to get a low interest loan in 7 steps",
+      "title_zh": "How to get a low interest loan in 7 steps"
+    },
+    {
+      "id": "yahoo_10_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "What is an unsecured loan?",
+      "link": "https://finance.yahoo.com/news/unsecured-loan-205736524.html",
+      "timestamp": 1774562853000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "What is an unsecured loan?",
+      "title_zh": "What is an unsecured loan?"
+    },
+    {
+      "id": "yahoo_13_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "What is the APR on a personal loan?",
+      "link": "https://finance.yahoo.com/news/apr-personal-loan-175302358.html",
+      "timestamp": 1774562793000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "What is the APR on a personal loan?",
+      "title_zh": "What is the APR on a personal loan?"
+    },
+    {
+      "id": "yahoo_14_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "Pros and cons of debt consolidation: Is it a good idea?",
+      "link": "https://finance.yahoo.com/news/pros-cons-debt-consolidation-023018479.html",
+      "timestamp": 1774562724000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "Pros and cons of debt consolidation: Is it a good idea?",
+      "title_zh": "Pros and cons of debt consolidation: Is it a good idea?"
+    },
+    {
+      "id": "wsj_0_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "timestamp": 1738005960000,
+      "category": "财经",
+      "description": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "title_zh": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek"
+    },
+    {
+      "id": "wsj_1_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Comex Gold, Silver Settle Lower",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "timestamp": 1738004460000,
+      "category": "财经",
+      "description": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Comex Gold, Silver Settle Lower",
+      "title_zh": "Comex Gold, Silver Settle Lower"
+    },
+    {
+      "id": "wsj_2_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "timestamp": 1738001520000,
+      "category": "财经",
+      "description": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "DeepSeek Won't Sink U.S. AI Titans",
+      "title_zh": "DeepSeek Won't Sink U.S. AI Titans"
+    },
+    {
+      "id": "wsj_3_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Financial Services Roundup: Market Talk",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "timestamp": 1737998820000,
+      "category": "财经",
+      "description": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Financial Services Roundup: Market Talk",
+      "title_zh": "Financial Services Roundup: Market Talk"
+    },
+    {
+      "id": "wsj_4_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "timestamp": 1737998400000,
+      "category": "财经",
+      "description": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "title_zh": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat"
+    },
+    {
+      "id": "wsj_5_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "timestamp": 1737989700000,
+      "category": "财经",
+      "description": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek’s new AI model hit U.S. tech stocks.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "title_zh": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens"
+    },
+    {
+      "id": "wsj_6_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "link": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "timestamp": 1737986700000,
+      "category": "财经",
+      "description": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Natural Gas Falls on Shifting Weather Forecasts",
+      "title_zh": "Natural Gas Falls on Shifting Weather Forecasts"
+    },
+    {
+      "id": "wsj_7_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "timestamp": 1737984480000,
+      "category": "财经",
+      "description": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "title_zh": "Building-Products Distributor QXO Launches Hostile Bid for Beacon"
+    },
+    {
+      "id": "wsj_8_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
+      "link": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main",
+      "timestamp": 1737979020000,
+      "category": "财经",
+      "description": "Maverick Natural Resources has operations in Texas and Oklahoma.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
+      "title_zh": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player"
+    },
+    {
+      "id": "wsj_9_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "What's New This Tax Season That Can Save You Money",
+      "link": "https://www.wsj.com/articles/tax-season-2024-irs-filing-dates-explained-628a8b37?mod=rss_markets_main",
+      "timestamp": 1737973800000,
+      "category": "财经",
+      "description": "There are some new wrinkles, especially for those who sell things online or bought an EV.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "What's New This Tax Season That Can Save You Money",
+      "title_zh": "What's New This Tax Season That Can Save You Money"
+    },
+    {
+      "id": "wsj_10_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Chinese Investors With Few Options Turn to Dividends",
+      "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main",
+      "timestamp": 1737973800000,
+      "category": "财经",
+      "description": "Companies with good payouts are now the hottest bet in China markets.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Chinese Investors With Few Options Turn to Dividends",
+      "title_zh": "Chinese Investors With Few Options Turn to Dividends"
+    },
+    {
+      "id": "wsj_11_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
+      "link": "https://www.wsj.com/articles/jgbs-consolidate-supported-by-u-s-treasurys-gains-7edccc7d?mod=rss_markets_main",
+      "timestamp": 1737972120000,
+      "category": "财经",
+      "description": "The 10-year U.S. Treasury yield fell and ING said the the long end of the Treasury curve will continue trading at higher yields even as Trump hasn’t delivered anything to shock markets so far.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
+      "title_zh": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward"
+    },
+    {
+      "id": "wsj_12_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Russia's Crude Exports Fairly Stable Despite U.S. Sanctions, Goldman Says",
+      "link": "https://www.wsj.com/articles/oil-futures-fall-after-trump-calls-for-tariffs-on-colombia-5b2a178c?mod=rss_markets_main",
+      "timestamp": 1737971160000,
+      "category": "财经",
+      "description": "Oil edged lower in early trade as Goldman Sachs said the latest round of U.S. sanctions against Russia haven’t had a significant impact on the country’s oil exports.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Russia's Crude Exports Fairly Stable Despite U.S. Sanctions, Goldman Says",
+      "title_zh": "Russia's Crude Exports Fairly Stable Despite U.S. Sanctions, Goldman Says"
+    },
+    {
+      "id": "wsj_13_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
+      "link": "https://www.wsj.com/articles/the-extra-reward-for-owning-stocks-over-bonds-has-disappeared-c3f9c223?mod=rss_markets_main",
+      "timestamp": 1737957900000,
+      "category": "财经",
+      "description": "There is little sign of crimped demand for equities among individual investors, who remain bullish after two years of blockbuster gains.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
+      "title_zh": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared"
+    },
+    {
+      "id": "wsj_14_1774677952",
+      "source": "wsj",
+      "sourceName": "WSJ",
+      "title": "Heard on the Street's Stock-Picking Series",
+      "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main",
+      "timestamp": 1737948780000,
+      "category": "财经",
+      "description": "Check out the stocks Heard on the Street writers favor in their eighth annual stock-picking contest.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "WSJ",
+        "财经"
+      ],
+      "title_en": "Heard on the Street's Stock-Picking Series",
+      "title_zh": "Heard on the Street's Stock-Picking Series"
+    },
+    {
+      "id": "yahoo_2_1774677951",
+      "source": "yahoo",
+      "sourceName": "Yahoo Finance",
+      "title": "LendingClub Bank review (2026): A top-rated online bank with high yields and low fees",
+      "link": "https://finance.yahoo.com/personal-finance/banking/review/lendingclub-bank-review-230320850.html",
+      "timestamp": 1725663800000,
+      "category": "财经",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "Yahoo Finance",
+        "财经"
+      ],
+      "title_en": "LendingClub Bank review (2026): A top-rated online bank with high yields and low fees",
+      "title_zh": "LendingClub Bank review (2026): A top-rated online bank with high yields and low fees"
+    },
+    {
+      "id": "cnn_8_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Look of the Week: Blackpink headline Coachella in Korean hanboks",
+      "link": "https://www.cnn.com/style/article/blackpink-coachella-2023-hanboks-lotw/index.html",
+      "timestamp": 1681803580000,
+      "category": "综合",
+      "description": "Bringing the second day of this year's Coachella to a close, K-Pop girl group Blackpink made history Saturday night when they became the first Asian act to ever headline the festival. To a crowd of, reportedly, over 125,000 people, Jennie, Jisoo, Lisa and Rosé used the ground-breaking moment to pay ",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Look of the Week: Blackpink headline Coachella in Korean hanboks",
+      "title_zh": "Look of the Week: Blackpink headline Coachella in Korean hanboks"
+    },
+    {
+      "id": "cnn_1_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Still haven't filed your taxes? Here's what you need to know",
+      "link": "https://www.cnn.com/2023/04/13/success/tax-filing-tips/index.html",
+      "timestamp": 1681474060000,
+      "category": "综合",
+      "description": "So far this tax season, the IRS has received more than 90 million income tax returns for 2022.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Still haven't filed your taxes? Here's what you need to know",
+      "title_zh": "Still haven't filed your taxes? Here's what you need to know"
+    },
+    {
+      "id": "cnn_0_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Markets digest bank earnings after recent turmoil",
+      "link": "https://www.cnn.com/business/live-news/stock-market-bank-earnings/index.html",
+      "timestamp": 1681473628000,
+      "category": "综合",
+      "description": "",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Markets digest bank earnings after recent turmoil",
+      "title_zh": "Markets digest bank earnings after recent turmoil"
+    },
+    {
+      "id": "cnn_2_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Retail spending fell in March as consumers pull back",
+      "link": "https://www.cnn.com/2023/04/14/economy/march-retail-sales/index.html",
+      "timestamp": 1681453792000,
+      "category": "综合",
+      "description": "Spending at US retailers fell in March as consumers pulled back amid recessionary fears fueled by the banking crisis.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Retail spending fell in March as consumers pull back",
+      "title_zh": "Retail spending fell in March as consumers pull back"
+    },
+    {
+      "id": "cnn_3_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Analysis: Fox News is about to enter the true No Spin Zone",
+      "link": "https://www.cnn.com/2023/04/14/media/fox-news-dominion-hnk-intl/index.html",
+      "timestamp": 1681425660000,
+      "category": "综合",
+      "description": "This is it.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Analysis: Fox News is about to enter the true No Spin Zone",
+      "title_zh": "Analysis: Fox News is about to enter the true No Spin Zone"
+    },
+    {
+      "id": "cnn_4_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color",
+      "link": "https://www.cnn.com/2023/04/13/business/silicon-valley-bank-entrepreneurs-of-color-reaj/index.html",
+      "timestamp": 1681391584000,
+      "category": "综合",
+      "description": "When customers at Silicon Valley Bank rushed to withdraw billions of dollars last month, venture capitalist Arlan Hamilton stepped in to help some of the founders of color who panicked about losing access to payroll funds.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color",
+      "title_zh": "Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color"
+    },
+    {
+      "id": "cnn_12_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Michael Jordan's 1998 NBA Finals sneakers sell for a record $2.2 million",
+      "link": "https://www.cnn.com/style/article/michael-jordan-sneakers-1998-finals-sothebys-auction-record/index.html",
+      "timestamp": 1681240677000,
+      "category": "综合",
+      "description": "In 1998, Michael Jordan laced up a pair of his iconic black and red Air Jordan 13s to bring home a Bulls victory during Game 2 of his final NBA championship — and now they are the most expensive sneakers ever to sell at auction.\n\nThe game-winning sneakers sold for $2.2 million at Sotheby's in New Yo",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Michael Jordan's 1998 NBA Finals sneakers sell for a record $2.2 million",
+      "title_zh": "Michael Jordan's 1998 NBA Finals sneakers sell for a record $2.2 million"
+    },
+    {
+      "id": "cnn_10_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "How Playboy cut ties with Hugh Hefner to create a post-MeToo brand",
+      "link": "https://www.cnn.com/style/article/playboy-the-conversation/index.html",
+      "timestamp": 1681168228000,
+      "category": "综合",
+      "description": "Hugh Hefner launched Playboy Magazine 70 years ago this year. The first issue included a nude photograph of Marilyn Monroe, which he had purchased and published without her knowledge or consent.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "How Playboy cut ties with Hugh Hefner to create a post-MeToo brand",
+      "title_zh": "How Playboy cut ties with Hugh Hefner to create a post-MeToo brand"
+    },
+    {
+      "id": "cnn_14_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Here's the real reason to turn on airplane mode when you fly",
+      "link": "https://www.cnn.com/travel/article/airplane-mode-reasons-why/index.html",
+      "timestamp": 1680843143000,
+      "category": "综合",
+      "description": "We all know the routine by heart: \"Please ensure your seats are in the upright position, tray tables stowed, window shades are up, laptops are stored in the overhead bins and electronic devices are set to flight mode.\"",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Here's the real reason to turn on airplane mode when you fly",
+      "title_zh": "Here's the real reason to turn on airplane mode when you fly"
+    },
+    {
+      "id": "cnn_11_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "'A definitive backslide.' Inside fashion's worrying runway trend",
+      "link": "https://www.cnn.com/style/article/fashion-week-fall-winter-2023-size-diversity-skinny-wegovy/index.html",
+      "timestamp": 1680785618000,
+      "category": "综合",
+      "description": "Now that the Fall-Winter 2023 catwalks have been disassembled, it's clear one trend was more pervasive than any collective penchant for ruffles, pleated skirts or tailored coats.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "'A definitive backslide.' Inside fashion's worrying runway trend",
+      "title_zh": "'A definitive backslide.' Inside fashion's worrying runway trend"
+    },
+    {
+      "id": "cnn_9_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Scientists identify secret ingredient in Leonardo da Vinci paintings",
+      "link": "https://www.cnn.com/style/article/old-masters-da-vinci-egg-yolk-painting-scn/index.html",
+      "timestamp": 1680169398000,
+      "category": "综合",
+      "description": "\"Old Masters\" such as Leonardo da Vinci, Sandro Botticelli and Rembrandt may have used proteins, especially egg yolk, in their oil paintings, according to a new study.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Scientists identify secret ingredient in Leonardo da Vinci paintings",
+      "title_zh": "Scientists identify secret ingredient in Leonardo da Vinci paintings"
+    },
+    {
+      "id": "cnn_13_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "The surreal facades of America's strip clubs",
+      "link": "https://www.cnn.com/style/article/francois-prost-gentlemens-club/index.html",
+      "timestamp": 1678083220000,
+      "category": "综合",
+      "description": "Some people travel the world in search of adventure, while others seek out natural wonders, cultural landmarks or culinary experiences. But French photographer François Prost was looking for something altogether different during his recent road trip across America: strip clubs.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "The surreal facades of America's strip clubs",
+      "title_zh": "The surreal facades of America's strip clubs"
+    },
+    {
+      "id": "cnn_6_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "These were the best and worst places for air quality in 2021, new report shows",
+      "link": "https://www.cnn.com/2022/03/22/world/air-pollution-2021-iqair-report-climate/index.html",
+      "timestamp": 1647938627000,
+      "category": "综合",
+      "description": "Air pollution spiked to unhealthy levels around the world in 2021, according to a new report.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "These were the best and worst places for air quality in 2021, new report shows",
+      "title_zh": "These were the best and worst places for air quality in 2021, new report shows"
+    },
+    {
+      "id": "cnn_5_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Not only is Lake Powell's water level plummeting because of drought, its total capacity is shrinking, too",
+      "link": "https://www.cnn.com/2022/03/21/us/lake-powell-capacity-shrinking-drought-climate/index.html",
+      "timestamp": 1647863664000,
+      "category": "综合",
+      "description": "Lake Powell, the second-largest human-made reservoir in the US, has lost nearly 7% of its potential storage capacity since 1963, when Glen Canyon Dam was built, a new report shows.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Not only is Lake Powell's water level plummeting because of drought, its total capacity is shrinking, too",
+      "title_zh": "Not only is Lake Powell's water level plummeting because of drought, its total capacity is shrinking, too"
+    },
+    {
+      "id": "cnn_7_1774677952",
+      "source": "cnn",
+      "sourceName": "CNN",
+      "title": "Big-box stores could help slash emissions and save millions by putting solar panels on roofs. Why aren't more of them doing it?",
+      "link": "https://www.cnn.com/2022/03/20/us/solar-power-on-big-box-store-rooftops-climate/index.html",
+      "timestamp": 1647730910000,
+      "category": "综合",
+      "description": "As the US attempts to wean itself off its heavy reliance on fossil fuels and shift to cleaner energy sources, many experts are eyeing a promising solution: your neighborhood big-box stores and shopping malls.",
+      "translated": false,
+      "translation": null,
+      "tags": [
+        "CNN",
+        "综合"
+      ],
+      "title_en": "Big-box stores could help slash emissions and save millions by putting solar panels on roofs. Why aren't more of them doing it?",
+      "title_zh": "Big-box stores could help slash emissions and save millions by putting solar panels on roofs. Why aren't more of them doing it?"
+    }
+  ],
+  "sources": {
+    "yahoo": {
+      "status": "ok",
+      "count": 15
+    },
+    "ft": {
+      "status": "ok",
+      "count": 11
+    },
+    "cnbc": {
+      "status": "ok",
+      "count": 15
+    },
+    "axios": {
+      "status": "ok",
+      "count": 15
+    },
+    "wsj": {
+      "status": "ok",
+      "count": 15
+    },
+    "cnn": {
+      "status": "ok",
+      "count": 15
+    },
+    "bloomberg": {
+      "status": "ok",
+      "count": 15
+    },
+    "scmp": {
+      "status": "ok",
+      "count": 15
+    }
+  },
+  "total": 116,
+  "fetchedAt": 1774677953508
 }
