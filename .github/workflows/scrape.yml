@@ -21,16 +21,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install feedparser
-          npm install -g wrangler@3
 
       - name: Run scraper
         run: python3 news_fetcher.py
@@ -39,9 +33,13 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
 
       - name: Write to D1
-        run: wrangler d1 execute news-fetcher-db --account-id=b466f9c49bdaaf9f52f9ba696a0f4744 --file public/data/news.sql --remote --yes
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          CONTENT=$(cat public/data/news.sql)
+          curl -s -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/b466f9c49bdaaf9f52f9ba696a0f4744/d1/database/72d3a19e-c519-4901-822d-9041536c6796/import" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: text/plain" \
+            --data "$CONTENT"
 
       - name: Commit news data
         uses: EndBug/add-and-commit@v10
