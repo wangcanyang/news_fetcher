@@ -41,7 +41,7 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
 
       - name: Write to D1
-        run: wrangler d1 execute news-fetcher-db --file public/data/news.sql --remote --yes --account-id b466f9c49bdaaf9f52f9ba696a0f4744
+        run: wrangler d1 execute news-fetcher-db --file public/data/news.sql --remote --yes
         env:
           CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
